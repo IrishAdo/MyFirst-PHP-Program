@@ -20,4 +20,7 @@ about 70 modules allowing a licenced web site to have one of three different typ
 2. a middle level that allowed a workflow for the publishing of web sites
 3. an Enterprise level access that enabled versionined as well as the workflow level.
 
-if you wantot see the code working http://libertas-solutions.com
+if you want to see the code working http://libertas-solutions.com
+
+
+Please be aware that I'm not responsible for the current state of this code base the company that both libertas solutions out sourced to different people who broke certain parts.
