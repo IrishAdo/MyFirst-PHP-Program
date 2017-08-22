@@ -1,0 +1,8 @@
+<locale language="English" codex="EN" file="themes_menu.xml">
+<!-- Management Label-->
+	<localisation code="MANAGEMENT_THEMES"><![CDATA[Theme Management]]></localisation> 
+	<localisation code="MANAGE_THEMES"><![CDATA[Manage Theme]]></localisation> 
+<!-- Module Labels-->
+	<localisation code="THEME_MANAGE"><![CDATA[Manage Theme(s)]]></localisation>
+</locale>
+	

@@ -1,0 +1,26 @@
+<locale language="English" codex="EN" file="themes_admin.xml">
+	<localisation code="THEME_SELECT_DEFAULT"><![CDATA[Select Default Theme]]></localisation>
+	<localisation code="LOCALE_THEME_USE_PARENTAL"><![CDATA[Use parents theme.]]></localisation>
+	<localisation code="LOCALE_THEME_PICKER"><![CDATA[Pick your sites default theme.]]></localisation>
+	<localisation code="LOCALE_THEME_CHOOSE"><![CDATA[Select the theme of your choice.]]></localisation>
+	<localisation code="LOCALE_THEME_UPDATE_MSG"><![CDATA[Your default site theme has been updated]]></localisation>
+
+<!-- Module theme styles-->
+	<localisation code="LOCALE_THEME_001_TYPE_HOME_PAGE"><![CDATA[Home Page layout]]></localisation>
+	<localisation code="LOCALE_THEME_002_TYPE_DEFAULT"><![CDATA[Default layout]]></localisation>
+	<localisation code="LOCALE_THEME_003_TYPE_LIST"><![CDATA[List entries, Title only]]></localisation>
+	<localisation code="LOCALE_THEME_004_TYPE_TITLE_SUMMARY"><![CDATA[Display Title &amp; Summary]]></localisation>
+	<localisation code="LOCALE_THEME_005_TYPE_DISPLAY"><![CDATA[Default Title &amp; Content]]></localisation>
+	<localisation code="LOCALE_THEME_006_TYPE_ARTICLES"><![CDATA[Display Article format]]></localisation>
+	<localisation code="LOCALE_THEME_007_TYPE_FAQ"><![CDATA[Display FAQ format]]></localisation>
+	<localisation code="LOCALE_THEME_008_TYPE_SITEMAP"><![CDATA[Display the sitemap structure]]></localisation>
+	<localisation code="LOCALE_THEME_009_TYPE_2_COLUMNS"><![CDATA[Display 2 columns of titles linking to page]]></localisation>
+	<localisation code="LOCALE_THEME_009_TYPE_2_COLUMNS_SUMMARY"><![CDATA[Display 2 columns with title and summary]]></localisation>
+	<localisation code="LOCALE_THEME_009_TYPE_2_COLUMNS_CONTENT"><![CDATA[Display 2 columns with title and content]]></localisation>
+	<localisation code="LOCALE_THEME_010_TYPE_3_COLUMNS"><![CDATA[Display 3 columns of titles linking to pages]]></localisation>
+	<localisation code="LOCALE_THEME_010_TYPE_3_COLUMNS_SUMMARY"><![CDATA[Display 3 columns with title and summary]]></localisation>
+	<localisation code="LOCALE_THEME_010_TYPE_3_COLUMNS_CONTENT"><![CDATA[Display 3 columns with title and content]]></localisation>
+	<localisation code="LOCALE_THEME_010_TYPE_3_COLUMN_GRAPHICAL"><![CDATA[Display 3 columns in a graphical]]></localisation>
+	<localisation code="LOCALE_THEME_TYPE_NEWS"><![CDATA[Display location in a News Format]]></localisation>
+</locale>
+	

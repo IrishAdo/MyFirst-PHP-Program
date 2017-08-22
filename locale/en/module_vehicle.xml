@@ -1,0 +1,23 @@
+<locale language="English" codex="EN" files="module_vehicle.xml">
+	<!-- Management Labels-->
+	<localisation code="MANAGEMENT_VEHICLE"><![CDATA[Vehicle Management]]></localisation> 
+	<!-- Manage Labels-->
+	<localisation code="MANAGE_VEHICLE_LOOKUP"><![CDATA[Modify lookup tables]]></localisation> 
+	<localisation code="LOCALE_VEHICLE_CONFIRM_LOOKUP_UPDATE"><![CDATA[
+		<p>Your lookup table updates were completed successfully.</p>
+	]]></localisation> 
+	<localisation code="LOCALE_VEHICLE_LOOKUP_FORM_CONFIRM"><![CDATA[Lookup update confirmation]]></localisation>
+	<localisation code="LOCALE_VEHICLE_LOOKUP_FORM"><![CDATA[Manage lookup entries]]></localisation>
+	<localisation code="LOCALE_VEHICLE_RETURN_TO_LIST"><![CDATA[Return to the list of vehicle]]></localisation>
+	<localisation code=""><![CDATA[]]></localisation>
+	<localisation code=""><![CDATA[]]></localisation>
+	<localisation code=""><![CDATA[]]></localisation>
+	<localisation code=""><![CDATA[]]></localisation>
+	<localisation code=""><![CDATA[]]></localisation>
+	<localisation code=""><![CDATA[]]></localisation>
+	<localisation code=""><![CDATA[]]></localisation>
+	<localisation code=""><![CDATA[]]></localisation>
+	<localisation code=""><![CDATA[]]></localisation>
+	<!-- System Access Levels -->
+</locale>
+	

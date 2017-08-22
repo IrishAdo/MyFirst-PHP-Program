@@ -1,0 +1,10 @@
+<locale language="English" codex="EN" file="forum_menu.xml">
+
+<!-- Management Labels-->
+	<localisation code="MANAGEMENT_FORUM"><![CDATA[Forum Management]]></localisation> 
+
+<!-- Manage Labels-->
+	<localisation code="MANAGE_FORUM"><![CDATA[Manage Forums]]></localisation> 
+	<localisation code="LOCALE_MANAGE_SWEAR_LIST"><![CDATA[Manage swear words]]></localisation>
+</locale>
+	

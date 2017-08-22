@@ -1,0 +1,198 @@
+<locale language="English" codex="EN" file="general.xml">
+<!-- General Locale Strings -->	
+	<localisation code="COMPLETE_ACCESS"><![CDATA[Complete Access.]]></localisation> 
+	<localisation code="LOCALE_DEFAULT_STRING"><![CDATA[ goes here]]></localisation>
+	<localisation code="LOCALE_PRINTER_FRENDLY"><![CDATA[Print]]></localisation>
+	<localisation code="LOCALE_EMAIL_THIS_PAGE"><![CDATA[Tell a Friend]]></localisation>
+	<localisation code="LOCALE_JUMP_TO"><![CDATA[Go to ]]></localisation>
+	<localisation code="LOCALE_ADD_TO_FAVOURITES"><![CDATA[Save]]></localisation>
+	<localisation code="LOCALE_OPEN_IN_EXTERNAL"><![CDATA[This will open in an external window]]></localisation>
+	<localisation code="ENTRY_MENU_LOCATION"><![CDATA[Site location]]></localisation> 
+	<localisation code="ENTRY_FORMAT_RICHTEXT"><![CDATA[Richtext version]]></localisation> 
+	<localisation code="ENTRY_FORMAT_HTML"><![CDATA[HTML version]]></localisation> 
+	<localisation code="ENTRY_DATE_CREATION"><![CDATA[Date Created]]></localisation> 
+	<localisation code="ENTRY_TITLE"><![CDATA[Title]]></localisation> 
+	<localisation code="EDIT_EXISTING"><![CDATA[Edit]]></localisation> 
+	<localisation code="ADD_NEW"><![CDATA[Add new]]></localisation> 
+	<localisation code="ENTRY_CANCEL"><![CDATA[Cancel]]></localisation> 
+	<localisation code="ENTRY_COMMENTS"><![CDATA[Read comments]]></localisation> 
+	<localisation code="ENTRY_DELETE"><![CDATA[Delete]]></localisation> 
+	<localisation code="ENTRY_DESCRIPTION"><![CDATA[Description.]]></localisation> 
+	<localisation code="ENTRY_LIST"><![CDATA[List entries]]></localisation> 
+	<localisation code="ENTRY_NO"><![CDATA[No]]></localisation> 
+	<localisation code="ENTRY_PREVIEW"><![CDATA[Preview]]></localisation> 
+	<localisation code="ENTRY_SAVE"><![CDATA[Save]]></localisation> 
+	<localisation code="ENTRY_SUMMARY"><![CDATA[Summary]]></localisation> 
+	<localisation code="ENTRY_YES"><![CDATA[Yes]]></localisation> 
+	<localisation code="ENTRY_DATE_MODIFIED"><![CDATA[Last modified]]></localisation> 
+	<localisation code="NO_KEEP"><![CDATA[No keep this.]]></localisation> 	
+	<localisation code="SAVE_DATA"><![CDATA[Save form information.]]></localisation> 
+	<localisation code="ONE_RESULT"><![CDATA[Displaying 1 result]]></localisation> 	
+	<localisation code="REMOVE_EXISTING"><![CDATA[Delete]]></localisation> 
+	<localisation code="RESULT"><![CDATA[results.]]></localisation> 
+	<localisation code="NO_CHANNEL_DEFINED"><![CDATA[No channel defined.]]></localisation> 
+	<localisation code="ENTRY_STATUS"><![CDATA[Version Status]]></localisation> 
+	<localisation code="LOCALE_CANCEL"><![CDATA[Cancel]]></localisation> 
+	<localisation code="LOCALE_REQUIRED_FIELDS"><![CDATA[ Denotes required fields]]></localisation>
+
+	<localisation code="RETURN_TO_LIST"><![CDATA[Return to the list of entries.]]></localisation> 
+	<localisation code="SHORT_DESCRIPTION"><![CDATA[Please enter a short description.]]></localisation> 	
+	<localisation code="SORRY_NO_RESULTS"><![CDATA[Sorry there were no results returned]]></localisation> 	
+	<localisation code="UPDATE_EXISTING"><![CDATA[Update this entry.]]></localisation> 	
+
+	<localisation code="YES_REMOVE"><![CDATA[Yes remove this.]]></localisation> 
+
+		
+	<localisation code="OPTION_DISPLAY_ALL"><![CDATA[Display all entries]]></localisation> 
+	<localisation code="STATUS_NOT_LIVE"><![CDATA[Not live]]></localisation>  
+	<localisation code="STATUS_LIVE"><![CDATA[Live]]></localisation>  	
+
+	<localisation code="LOCALE_SEARCH_LABEL"><![CDATA[Site Search]]></localisation>
+	<localisation code="LOCALE_SEARCH_BOX_DEFAULT_TXT"><![CDATA[Search phrase]]></localisation>
+	<localisation code="LOCALE_LIST"><![CDATA[List]]></localisation>
+	<localisation code="LOCALE_UNDEFINED"><![CDATA[Not defined]]></localisation>
+
+<!-- META DATA -->
+	<localisation code="LOCALE_DATE_REVIEW"><![CDATA[Review]]></localisation>
+	<localisation code="LOCALE_DATE_PUBLISHED"><![CDATA[Published]]></localisation>
+	<localisation code="LOCALE_DATE_MODIFIED"><![CDATA[Last modified]]></localisation>
+	<localisation code="LOCALE_DATE_AVAILABLE"><![CDATA[Available]]></localisation>
+	<localisation code="LOCALE_META_EXPLAIN_CONTRIBUTOR"><![CDATA[Who contributed to the generation of this document]]></localisation>
+	<localisation code="LOCALE_META_COVERAGE_PLACE"><![CDATA[Place of coverage]]></localisation>
+	<localisation code="LOCALE_META_COVERAGE_POSTCODE"><![CDATA[Postcode of coverage]]></localisation>
+	<localisation code="LOCALE_META_COVERAGE_TIME"><![CDATA[Time of coverage]]></localisation>
+	<localisation code="LOCALE_META_CREATOR"><![CDATA[Creators]]></localisation>
+	<localisation code="LOCALE_META_SUBJECT_PROGRAMME"><![CDATA[Subject programme]]></localisation>
+	<localisation code="LOCALE_META_SUBJECT_PROJECT"><![CDATA[Subject project]]></localisation>
+	<localisation code="LOCALE_META_SOURCE"><![CDATA[Source]]></localisation>
+	<localisation code="LOCALE_AUTHOR"><![CDATA[Author]]></localisation>
+	<localisation code="LOCALE_PUBLISH_NOW"><![CDATA[Publish]]></localisation>
+	<localisation code="LOCALE_REWORK"><![CDATA[Rework]]></localisation>
+	<localisation code="LOCALE_PREVIEW"><![CDATA[Preview]]></localisation>
+	<localisation code="LOCALE_REJECT"><![CDATA[Reject]]></localisation>
+	<localisation code="LOCALE_APPROVE"><![CDATA[Approve]]></localisation>
+
+<!-- Filters -->
+	<localisation code="ENTRY_ORDER_BY"><![CDATA[Order by]]></localisation> 
+	<localisation code="ENTRY_ORDER_FILTER"><![CDATA[Order results by]]></localisation> 
+	<localisation code="FILTER_ORDER_FILE_NAME_A_Z"><![CDATA[File name (A -> Z) ]]></localisation> 
+	<localisation code="FILTER_ORDER_FILE_NAME_Z_A"><![CDATA[File name (Z -> A) ]]></localisation> 
+	<localisation code="FILTER_ORDER_DATE_NEWEST"><![CDATA[Date created (newest first)]]></localisation> 
+	<localisation code="FILTER_ORDER_DATE_OLDEST"><![CDATA[Date created (oldest first)]]></localisation> 
+	<localisation code="FILTER_ORDER_TITLE_A_Z"><![CDATA[Page title (A -> Z) ]]></localisation> 
+	<localisation code="FILTER_ORDER_TITLE_Z_A"><![CDATA[Page title (Z -> A) ]]></localisation> 
+	<localisation code="FILTER_ORDER_LOCATION_A_Z"><![CDATA[Menu location (A -> Z) ]]></localisation> 
+	<localisation code="FILTER_ORDER_LOCATION_Z_A"><![CDATA[Menu location (Z -> A)]]></localisation> 
+	<localisation code="FILTER_ORDER_USERNAME_A_Z"><![CDATA[User name (A -> Z)]]></localisation> 
+	<localisation code="FILTER_ORDER_USERNAME_Z_A"><![CDATA[User name (Z -> A)]]></localisation> 
+	<localisation code="FILTER_ORDER_FIRST_NAME_A_Z"><![CDATA[First name (A -> Z)]]></localisation> 
+	<localisation code="FILTER_ORDER_FIRST_NAME_Z_A"><![CDATA[First name (Z -> A)]]></localisation> 
+	<localisation code="FILTER_ORDER_SURNAME_A_Z"><![CDATA[Surname (A -> Z)]]></localisation> 
+	<localisation code="FILTER_ORDER_SURNAME_Z_A"><![CDATA[Surname (Z -> A)]]></localisation> 
+	<localisation code="FILTER_ORDER_GROUP_NAME_A_Z"><![CDATA[Group name (A -> Z)]]></localisation> 
+	<localisation code="FILTER_ORDER_GROUP_NAME_Z_A"><![CDATA[Group name (Z -> A)]]></localisation> 
+	<localisation code="FILTER_RESULTS"><![CDATA[Search]]></localisation> 
+
+<!-- Search -->	
+	<localisation code="DISPLAY_OF"><![CDATA[of]]></localisation> 
+	<localisation code="DISPLAY_TO"><![CDATA[to]]></localisation> 
+	<localisation code="DISPLAYING_RESULTS"><![CDATA[Displaying Results]]></localisation> 
+	<localisation code="SEARCH_KEYWORDS"><![CDATA[Search phase]]></localisation> 
+	<localisation code="SEARCH_NOW"><![CDATA[Search]]></localisation>
+	<localisation code="LOCALE_NEXT"><![CDATA[Next]]></localisation> 
+	<localisation code="LOCALE_PREVIOUS"><![CDATA[Previous]]></localisation> 
+	<localisation code="LOCALE_PAGE"><![CDATA[Page]]></localisation> 
+<!-- Version and module-->
+	<localisation code="MAJOR_VERSION_MINOR_VERSION"><![CDATA[Version]]></localisation> 
+	<localisation code="MODULE_NAME"><![CDATA[Module Name.]]></localisation> 
+	<localisation code="MODULE_VERSION"><![CDATA[Module Version.]]></localisation> 
+
+<!-- Metadata locale information -->
+	<localisation code="LOCALE_META_SAVE_CONFIRM"><![CDATA[Thank you your default meta data settings have now been updated.]]></localisation>
+	<localisation code="LOCALE_META_DEFAULT_FORM_CONFIRM"><![CDATA[Confirmation]]></localisation>
+	<localisation code="LOCALE_META_DEFAULT_MSG1"><![CDATA[<strong>The following form is for defining metadata values.</strong>]]></localisation>
+	<localisation code="LOCALE_META_WHAT_AUDIENCE"><![CDATA[What Audience is this for? (one option per new-line)]]></localisation>
+	<localisation code="LOCALE_META_SUBJECT"><![CDATA[Subject]]></localisation>
+	<localisation code="LOCALE_META_DOC_TYPES"><![CDATA[Document Types]]></localisation>
+	<localisation code="LOCALE_META_WHAT_DOC_TYPE"><![CDATA[What types of documents can be published? (one option per new-line)]]></localisation>
+	<localisation code="LOCALE_META_WHAT_SUBJECT"><![CDATA[What categories are available for your documentation (one option per new-line)]]></localisation>
+	<localisation code="LOCALE_META_DEFAULT_FORM"><![CDATA[Meta Data site default information]]></localisation>
+	<localisation code="LOCALE_META_PUBLISHER"><![CDATA[Publisher contact Details]]></localisation>
+	<localisation code="LOCALE_META_COPY_RIGHT_LOCATION"><![CDATA[Where is the default copyright information for this site?]]></localisation>
+	<localisation code="LOCALE_META_RIGHTS_LOC"><![CDATA[Copyright location]]></localisation>
+	<localisation code="LOCALE_META_AUDIENCE"><![CDATA[Audience]]></localisation>
+	<localisation code="LOCALE_META_CONTRIBUTOR"><![CDATA[Contributors]]></localisation>
+	<localisation code="LOCALE_META_RIGHTS"><![CDATA[Rights]]></localisation>
+
+	<localisation code="LOCALE_HELP"><![CDATA[Help]]></localisation>
+	<localisation code="LOCALE_HOME"><![CDATA[Home]]></localisation>
+
+	<localisation code="LOCALE_NOT_LOGGED_IN"><![CDATA[ ]]></localisation>
+	<localisation code="LOCALE_JOIN_NOW"><![CDATA[Join Now]]></localisation>
+	<localisation code="LOCALE_LOGIN"><![CDATA[Login]]></localisation>
+	<localisation code="LOCALE_WELCOME_BACK_MSG"><![CDATA[Welcome back ]]></localisation>
+	<localisation code="LOCALE_LOGOUT"><![CDATA[Logout]]></localisation>
+	<localisation code="LOCALE_SEARCH_BUTTON_ALT"><![CDATA[Search]]></localisation>
+	<localisation code="LOCALE_ALT_TITLE"><![CDATA[Alternative Title]]></localisation>
+	<localisation code="LOCALE_TITLE"><![CDATA[Title]]></localisation>
+	<localisation code="LOCALE_AUTHORS"><![CDATA[Author(s)]]></localisation>
+	<localisation code="LOCALE_CONTRIBUTORS"><![CDATA[Contributor(s)]]></localisation>
+	<localisation code="LOCALE_SOURCE"><![CDATA[Source]]></localisation>
+	<localisation code="LOCALE_AUDIENCE"><![CDATA[Audience]]></localisation>
+	<localisation code="LOCALE_CATEGORY"><![CDATA[Category]]></localisation>
+	<localisation code="LOCALE_TOP_OF_PAGE"><![CDATA[Top of page]]></localisation>
+	<localisation code="LOCALE_CLICK_TO_DOWNLOAD"><![CDATA[Click to download the file]]></localisation>
+	<localisation code="LOCALE_LIST_OF_FILES"><![CDATA[You can download the following file(s)]]></localisation>
+
+	<!-- page module-->
+	<localisation code="LOCALE_BACK"><![CDATA[Back]]></localisation>
+	<localisation code="LOCALE_YOU_ARE_HERE"><![CDATA[You are here]]></localisation>
+	<localisation code="LOCALE_BE_THE_FIRST"><![CDATA[Be the first to add a comment...]]></localisation>
+	<localisation code="LOCALE_COMMENT_ADD"><![CDATA[Add a Comment]]></localisation>
+	<localisation code="LOCALE_LINK_MORE"><![CDATA[Read more about : ]]></localisation>
+	<localisation code="LOCALE_POWERED_BY"><![CDATA[Powered by]]></localisation>
+	<localisation code="LOCALE_FOUND_AT"><![CDATA[You can find this page at]]></localisation>
+	<localisation code="LOCALE_RETURN_TO_SITE"><![CDATA[Return to Site]]></localisation>
+	<localisation code="LOCALE_ADD_NEW_ENTRY"><![CDATA[Modify entries ...]]></localisation>
+	<localisation code="LOCALE_MODIFY"><![CDATA[Modify]]></localisation>
+
+
+	<!-- user module-->
+	<localisation code="LOCALE_LOGIN_FORM"><![CDATA[Login]]></localisation>
+	<localisation code="ENTRY_USERNAME"><![CDATA[Username]]></localisation>  
+	<localisation code="ENTRY_PASSWORD"><![CDATA[Password]]></localisation>  
+	<localisation code="LOCALE_REMOVE_FROM_SITE"><![CDATA[Unpublish from site.]]></localisation>
+	<localisation code="LOCALE_LANGUAGE"><![CDATA[Language]]></localisation>
+
+	<localisation code="LOCALE_ADD"><![CDATA[Add new Entry]]></localisation>
+	<localisation code="LOCALE_EDIT"><![CDATA[Edit existing Entry]]></localisation>
+
+	<localisation code="LOCALE_SUBJECT"><![CDATA[Subject]]></localisation>
+
+	
+	<localisation code="LOCALE_NO_KEYWORDS"><![CDATA[Sorry there are no keywords available to choose.]]></localisation>
+	<localisation code="LOCALE_CONTACT_DETAILS"><![CDATA[Contact Details]]></localisation>
+	<localisation code="LOCALE_MSG"><![CDATA[Msg]]></localisation>
+	<localisation code="LOCALE_SENT_MSG"><![CDATA[Thank you your message was sent.]]></localisation>
+	<localisation code="LOCALE_CONTACT_NAME"><![CDATA[Contact]]></localisation>
+	<localisation code="LOCALE_CONTACT_PROFILE"><![CDATA[Profile]]></localisation>
+	<localisation code="LOCALE_LIST_FORMS"><![CDATA[Form field management]]></localisation>
+	<localisation code="LOCALE_DEBUG_MANAGE"><![CDATA[Debug settings]]></localisation>
+	<localisation code="LOCALE_FORM_NAME"><![CDATA[Form name]]></localisation>
+	<localisation code="SFORM_DISPLAY_CONTACT_US"><![CDATA[Standard Contact Form]]></localisation>
+	<localisation code="LOCALE_SORRY"><![CDATA[Sorry]]></localisation>
+	<localisation code="LOCALE_DEFAULT_MENU_MSG_EXPRESS"><![CDATA[What location should this appear as a child of.]]></localisation>
+	<localisation code="LOCALE_USERS_REGISTER_CONFIRM"><![CDATA[Thank you for registering.]]></localisation>
+	<localisation code="ENGINE_SPASH_MSG"><![CDATA[Welcome]]></localisation>
+	<localisation code="LOCALE_USER_ACCESS_REPORTS"><![CDATA[Available reports]]></localisation>
+	<localisation code="SEND_TO_PUBLISHER"><![CDATA[Ready for Approval]]></localisation>
+	<localisation code="LOCALE_SUPPLY_VALID_SUBJECT"><![CDATA[You must supply a subject for your message]]></localisation>
+	<localisation code="LOCALE_SUPPLY_VALID_MSG"><![CDATA[You must supply a message]]></localisation>
+	<localisation code="REQUEST_APPROVAL"><![CDATA[Ready for approval]]></localisation>
+	<localisation code="NUMBER_OF_LOCATIONS"><![CDATA[Locations]]></localisation>
+	<localisation code="LOCALE_ELERT_SIGNUP"><![CDATA[Watch this Page]]></localisation>
+	<localisation code="LOCALE_PROFILE"><![CDATA[Edit Profile]]></localisation>
+	<!-- Modify by Ali Imran -->
+	<localisation code="SUBSCRIBE_EXISTING"><![CDATA[Subscribe]]></localisation> 
+	<!--End of Modification of Ali Imran -->
+</locale>

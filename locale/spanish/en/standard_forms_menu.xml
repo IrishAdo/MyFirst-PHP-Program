@@ -1,0 +1,10 @@
+<locale language="English" codex="EN" files="standard_forms_menu.xml">
+
+<!-- Management Labels-->
+	<localisation code="MANAGEMENT_STANDARD_FORMS"><![CDATA[Standard Form Management]]></localisation> 
+
+
+<!-- Manage Labels-->
+	<localisation code="MANAGE_STANDARD_FORMS"><![CDATA[Manage Forms]]></localisation> 
+</locale>
+	

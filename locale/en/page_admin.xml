@@ -1,0 +1,133 @@
+<locale language="English" codex="EN" files="page_admin.xml">
+<!-- Access Role Labels-->
+	<localisation code="ACCESS_LEVEL_AUTHOR"><![CDATA[Author Access]]></localisation> 
+	<localisation code="ACCESS_LEVEL_APPROVER"><![CDATA[Approver Access]]></localisation> 
+	<localisation code="ACCESS_LEVEL_PUBLISHER"><![CDATA[Publisher Access]]></localisation> 
+	<localisation code="ACCESS_LEVEL_ARCHIVEST"><![CDATA[Archive Access]]></localisation> 
+<!-- Admin only Locale Labels-->
+	<localisation code="LOCALE_WARNING_ENTRY_LOCKED"><![CDATA[Sorry this record is locked.  You will be unable to edit / removed it until it is unlocked]]></localisation> 
+	<localisation code="ENTRY_SELECT_MENU_LOCATIONS"><![CDATA[Select menu locations to publish to.]]></localisation> 
+	<localisation code="LOCALE_MY_DOCS"><![CDATA[Your documents]]></localisation>
+	<localisation code="LOCALE_SORRY_NO_DOCUMENTS_CHECKED_OUT"><![CDATA[Sorry you have not checked out any documents]]></localisation>
+	<localisation code="LOCALE_VIEW_DISCUSSION"><![CDATA[View discussion]]></localisation>
+	<localisation code="LOCALE_NO_DISCUSSION"><![CDATA[No discussion]]></localisation>
+	<localisation code="ENTRY_WEB_DISCUSSION"><![CDATA[Web notes]]></localisation>
+	<localisation code="ENTRY_ADMIN_DISCUSSION"><![CDATA[Admin notes]]></localisation>
+	<localisation code="LOCALE_VIEW_ADMIN_DISCUSSION"><![CDATA[View Admin Discussion]]></localisation>
+	<localisation code="LOCALE_VIEW_WEB_DISCUSSION"><![CDATA[View Web Discussion]]></localisation>
+	<localisation code="SEND_TO_APPROVER"><![CDATA[Send entry to be approved]]></localisation>
+	<localisation code="LOCALE_ARCHIVED"><![CDATA[Located in Archive]]></localisation>
+	<localisation code="LOCALE_PUBLISHED"><![CDATA[Currently on site]]></localisation>
+	<localisation code="LOCALE_NA"><![CDATA[N/A]]></localisation>
+	<localisation code="ENTRY_STATUS_FILTER"><![CDATA[Status of document]]></localisation>
+	<localisation code="LOCALE_LANGUAGES"><![CDATA[Available in the following languages]]></localisation>
+	<localisation code="LOCALE_DOCS_TO_APPROVE"><![CDATA[Awaiting to be approved]]></localisation>
+	<localisation code="LOCALE_SORRY_NO_DOCUMENTS_TO_APPROVE"><![CDATA[Sorry there are no documents to approve.]]></localisation>
+	<localisation code="LOCALE_DOCS_TO_PUBLISH"><![CDATA[Waiting to be published]]></localisation>
+	<localisation code="LOCALE_SORRY_NO_DOCUMENTS_TO_PUBLISH"><![CDATA[Sorry there are no documents waiting to be published]]></localisation>
+	<localisation code="LOCALE_VERSION_NUMBER"><![CDATA[Version]]></localisation>
+	<localisation code="LOCALE_SUMMARISATION"><![CDATA[Document summary]]></localisation>
+	<localisation code="LOCALE_SORRY_NO_DOCUMENTS_TO_REVIEW"><![CDATA[There are no documents to review]]></localisation>
+	<localisation code="LOCALE_TO_REVIEW"><![CDATA[Awaiting review]]></localisation>
+	<localisation code="ENTRY_LIST_VERSIONS"><![CDATA[View version history]]></localisation>
+	<localisation code="LOCALE_NEW_COPY"><![CDATA[Extract copy]]></localisation>
+	<localisation code="LOCALE_COPY_THIS_VERSION"><![CDATA[Make a copy of this version]]></localisation>
+	<localisation code="LOCALE_CURRENTLY_ON_SITE"><![CDATA[Current version on site]]></localisation>
+	<localisation code="ENTRY_PUBLISHED"><![CDATA[Version on site]]></localisation>
+	<localisation code="LOCALE_SAVE_DATA_SITE"><![CDATA[Publish]]></localisation>
+	<localisation code="LOCALE_SAVE_DATA_APPROVER"><![CDATA[Save this document and mark as approved]]></localisation>
+	<localisation code="LOCALE_CHECKIN"><![CDATA[Check in]]></localisation>
+	<localisation code="LOCALE_CHECKOUT"><![CDATA[Check out]]></localisation>
+	
+	<localisation code="ACCESS_LEVEL_FORCE_UNLOCK"><![CDATA[Can force Check In]]></localisation>
+	<localisation code="ACCESS_LEVEL_DISCUSSION_ADMIN"><![CDATA[Administer discussions]]></localisation>
+	<localisation code="ENTRY_IDENTY"><![CDATA[ID#]]></localisation> 
+	<localisation code="ENTRY_LOCKED"><![CDATA[Locked]]></localisation> 
+	<localisation code="ENTRY_UNLOCKED"><![CDATA[Unlocked]]></localisation>
+	<localisation code="ENTRY_OPTIONS"><![CDATA[Action]]></localisation> 
+	<localisation code="ENTRY_STATUS"><![CDATA[Status]]></localisation> 
+
+	
+<!-- Management Labels-->
+	<localisation code="MANAGEMENT_PAGE"><![CDATA[Page Management]]></localisation> 
+	<localisation code="LOCALE_SEARCH_AUTHOR"><![CDATA[By Author]]></localisation>
+	<localisation code="LOCALE_SEARCH_BOOLEAN"><![CDATA[Boolean Search]]></localisation>
+	<localisation code="LOCALE_META_EXPLAIN_AUTHOR"><![CDATA[Usually the actual page author, but can also be group of people, committee or organisation.]]></localisation>
+	<!-- Duplications -->
+	<localisation code="ENTRY_AUTHOR"><![CDATA[Author]]></localisation>
+	<localisation code="ENTRY_UNPUBLISH"><![CDATA[Unpublish]]></localisation> 
+	<localisation code="ENTRY_REWORK"><![CDATA[Rework]]></localisation> 
+	<localisation code="ENTRY_PUBLISH"><![CDATA[Publish]]></localisation> 
+	<localisation code="ENTRY_REJECT"><![CDATA[Reject]]></localisation> 
+	<localisation code="ENTRY_APPROVE"><![CDATA[Approve]]></localisation> 
+	<localisation code="ENTRY_UNARCHIVE"><![CDATA[Remove this page from archive]]></localisation> 
+	<localisation code="ENTRY_ARCHIVE"><![CDATA[Archive this Page]]></localisation> 
+	<localisation code="LOCALE_PAGE_DISPLAY_SEARCH_CHANNEL"><![CDATA[Display a document search form.]]></localisation>
+	<localisation code="LOCALE_PAGE_DISPLAY_LIST_CHANNEL"><![CDATA[List the entries for this location.]]></localisation>
+	<localisation code="LOCALE_PAGE_DISPLAY_AUTO_CHANNEL"><![CDATA[Display the entries automatically for this location.]]></localisation>
+	<localisation code="LOCALE_PAGE_DISPLAY_NEWEST_CHANNEL"><![CDATA[Display the latest pages.]]></localisation>
+	<localisation code="LOCALE_PAGE_REMOVE_LABEL"><![CDATA[Remove this page from the system?]]></localisation>
+	<localisation code="LOCALE_PAGE_REMOVE_CONFIRM"><![CDATA[Are you sure you wish to remove this page from the system?]]></localisation>
+	<localisation code="LOCALE_PAGE_CONFIRM_PUBLISH_LABEL"><![CDATA[Are you sure you wish to publish this page?]]></localisation>
+	<localisation code="LOCALE_PAGE_PUBLISH_ADD_NOTE"><![CDATA[<p>You have chosen to publish this page.<br />Please add a note to this page.</p>]]></localisation>
+	<localisation code="LOCALE_PAGE_REJECT_DRAFT"><![CDATA[Reject this draft?]]></localisation>
+	<localisation code="LOCALE_PAGE_REJECT_DRAFT_ADD_NOTE"><![CDATA[<p>You have chosen to reject this page.<br />Please fill in the notes box below to describe why?</p>]]></localisation>
+
+
+	<localisation code="LOCALE_BASIC_REPORTS"><![CDATA[General Documentation Report]]></localisation>
+	<localisation code="LOCALE_NUMBER_OF_VERSIONS"><![CDATA[Version(s)]]></localisation>
+	<localisation code="LOCALE_EXTRACTION_MSG_CONTENT"><![CDATA[The version of the document that you wished to be extracted has been completed and placed on the Authors Desk awaiting editing.]]></localisation>
+	<localisation code="LOCALE_EXTRACTION_MSG_BOX"><![CDATA[Version Extraction Confirmed]]></localisation>
+	<localisation code="LOCALE_TITLE"><![CDATA[Title]]></localisation>
+	<localisation code="LOCALE_SCORING"><![CDATA[Score]]></localisation>
+	<localisation code="NUMBER_OF_LOCATIONS"><![CDATA[Locations]]></localisation>
+	<localisation code="LOCALE_STATUS_TYPE_1"><![CDATA[Draft]]></localisation>
+	<localisation code="LOCALE_STATUS_TYPE_2"><![CDATA[Waiting for Approval]]></localisation>
+	<localisation code="LOCALE_STATUS_TYPE_3"><![CDATA[Approved]]></localisation>
+	<localisation code="LOCALE_STATUS_TYPE_4"><![CDATA[Published]]></localisation>
+	<localisation code="LOCALE_STATUS_TYPE_5"><![CDATA[Archived]]></localisation>
+	<localisation code="LOCALE_PUBLISHER_ACCESS"><![CDATA[Publishers Desk]]></localisation>
+	<localisation code="LOCALE_APPROVER_ACCESS"><![CDATA[Approvers Desk]]></localisation>
+	<localisation code="LOCALE_AUTHOR_ACCESS"><![CDATA[Authors Desk]]></localisation>
+	<localisation code="LOCALE_WARNING_NO_ACCESS"><![CDATA[Sorry you do not have access to this data]]></localisation>
+
+	<localisation code="LOCALE_PUBLISH"><![CDATA[Publish directly to site]]></localisation>
+	<localisation code="LOCALE_APPROVED"><![CDATA[Marked as approved]]></localisation>
+	<localisation code="LOCALE_ANONYMOUS_OR_SECURE"><![CDATA[Or secure to the following group(s)]]></localisation>
+	<localisation code="LOCALE_AUTHORING"><![CDATA[Work in Progress]]></localisation>
+	<localisation code="LOCALE_READY"><![CDATA[Page ready for approval]]></localisation>
+	
+	<localisation code="LOCALE_DATES"><![CDATA[Specify functional dates]]></localisation>
+	<localisation code="LOCALE_DATE_REMOVE_FROM"><![CDATA[Specify a date and time when this document is to be removed from the site.]]></localisation>
+	<localisation code="LOCALE_DATE_VALID_UNTIL"><![CDATA[To set a date where you need to check the documents validity]]></localisation>
+	<localisation code="LOCALE_DATE_AVAILABLE_FROM"><![CDATA[Do not publish this document until this date/time]]></localisation>
+	<localisation code="ENTRY_DOC_SUMMARY"><![CDATA[Document Summary]]></localisation>
+	<localisation code="LOCALE_META_ALT_TITLE"><![CDATA[Alternative title]]></localisation>
+	<localisation code="LOCALE_DOC_DETAILS"><![CDATA[Document Details]]></localisation>
+	<localisation code="LOCALE_DOCUMENT_SUMMARY"><![CDATA[Summary of the current status of this document.]]></localisation>
+
+	<localisation code="LOCALE_IGNORE_KEYWORD_LIST"><![CDATA[Manage the Ignore keyword list]]></localisation>
+	<localisation code="LOCALE_HOW_TO_WRITE_LIST"><![CDATA[Supply one word per line]]></localisation>
+	<localisation code="ENTRY_PAGE_WEIGHT"><![CDATA[Content weight]]></localisation>
+
+	<localisation code="LOCALE_RESPOND_COMMENT_FORM"><![CDATA[Responding to a comment]]></localisation>
+	<localisation code="LOCALE_COMMENT_WEB_MSG"><![CDATA[Can users add comments to this page on the site.]]></localisation>
+	<localisation code="LOCALE_COMMENT_ADMIN_MSG"><![CDATA[Can users add comments to this page in the administration.]]></localisation>
+	<localisation code="LOCALE_COMMENTS"><![CDATA[User comments]]></localisation> 
+	<localisation code="LOCALE_DISABLE"><![CDATA[Disable]]></localisation>
+	<localisation code="LOCALE_ENABLE"><![CDATA[Enable]]></localisation>
+	<localisation code="LOCALE_REMOVE_COMMENT_FORM"><![CDATA[Remove an unwanted comment.]]></localisation>
+	<localisation code="LOCALE_REMOVE_COMMENT"><![CDATA[You have chosen to remove this comment from the system]]></localisation>
+	<localisation code="LOCALE_REPLYING_TO"><![CDATA[In reply to comment]]></localisation>
+	<localisation code="LOCALE_RESPOND"><![CDATA[Reply to this Entry]]></localisation>
+	<localisation code="LOCALE_ADD_COMMENT"><![CDATA[Please enter your comment in the box below before saving]]></localisation>
+	<localisation code="LOCALE_ADD_COMMENT_FORM"><![CDATA[Add a comment to this document]]></localisation>
+	<localisation code="LOCALE_DATE"><![CDATA[Date]]></localisation>
+	<localisation code="LOCALE_MESSAGE"><![CDATA[Msg]]></localisation>
+	<localisation code="LOCALE_COMMENT_ID"><![CDATA[Comment]]></localisation>
+	<localisation code="LOCALE_FORCE_UNLOCK"><![CDATA[Force Unlock]]></localisation>
+	<localisation code="LOCALE_SUBJECT_KEYWORDS"><![CDATA[Specific Keywords (add any specific keywords/phrases you require and separate with a semi-colon ';' )]]></localisation>
+	<localisation code="LOCALE_PAGE_FORM"><![CDATA[Page Form Structure]]></localisation>
+
+</locale>
+	

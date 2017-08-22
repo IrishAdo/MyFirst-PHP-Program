@@ -1,0 +1,7 @@
+<locale language="English" codex="EN" files="mirror_menu.xml">
+<!-- Management Labels-->
+	<localisation code="MANAGEMENT_MIRROR"><![CDATA[Mirror Management]]></localisation> 
+<!-- Manage Labels-->
+	<localisation code="MANAGE_MIRROR"><![CDATA[Manage Mirrors]]></localisation> 
+</locale>
+	

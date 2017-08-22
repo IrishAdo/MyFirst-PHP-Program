@@ -1,0 +1,229 @@
+/* styles-basic.css - styles for the basic page template */
+/* Author: Gerard Torenvliet */
+/* Copyright (c) 1996-2003 Watchfire Corporation */
+
+/* Styles for common elements */
+
+
+/* DIV contentwrapper - used to wrap entire page with a border */
+	div#contentwrapper {
+		border							: 1px solid #cc0000;
+	}
+
+/* DIV menu-secondary - Skip Nav / Sign In / Contact menu */
+	div#menu-secondary{
+		margin							: 0;
+		padding						    : 0;
+	}
+	div#menu-secondary ul {
+		/* the links in the menu are structured as an unordered list */
+		margin							: 0;
+		padding						: 0;
+		border							: none;
+		float								: right;
+	} 
+	div#menu-secondary li {
+		/* general styling for the list items */
+		display							: block;
+		margin							: 0;
+		padding						: 0.5em 0.75em 0.5em 0.75em;
+		border							: none;
+		float								: left;
+		overflow						: visible;
+		background-color			: #E9E8E7;
+		border-left					: 1px solid #cc0000;
+		z-index							: 10;
+	}
+	li.first{
+		/* used to ensure that we get the correct border on the first item in the list */
+		border-left					: 0 !important;
+		border-right					: 1px solid #C1C5C6;
+	}
+	li.middle{
+		/* used to ensure that we get the correct border on the middle item(s) in the list */
+		border-right					: 1px solid #C1C5C6;
+	}
+	div#menu-secondary a:link {
+		color							: #000000;
+		text-decoration			: none;
+	}
+	div#menu-secondary a:hover {
+		color							: #0000FF !important;
+		text-decoration			: underline !important;
+	}
+	div#menu-secondary a:visited {
+		color							: #000000;
+		text-decoration			: none;
+	}
+	
+
+/* DIV logo - holds the main logo */
+div#logo{
+	margin							: 0;
+	padding						: 0;
+	height							: 62px;
+	overflow						: hidden;
+	width							: 240px;
+}
+div#logo img{
+	border							: 0;
+}
+
+/* DIV menu - the main menu bar */
+
+	/* DIV searchcontrol - the search field floated to the right of the main menu */
+		div#searchcontrol{
+			/* floats the search control over to the right */
+			margin							: 0;
+			padding						: 0.25em 0.5em 0 0;
+			text-align						: right;
+			border							: 0;
+			float								: right;
+		}
+		#search-field{
+			font-family					: verdana, arial, sans-serif;
+			font-size						: 100%;
+			width							: 15em;
+			margin							: 0;
+		}
+		#search-button{
+			vertical-align				: top;
+		}
+
+	div#menu{
+		/* styles the bar that everything fits in */
+		background					: #ebebeb;
+		width							: 100%;
+		height							: 2.5em;
+		margin							: 0;
+		padding						: 0;
+		border-top					: 1px solid #cc0000;
+	}
+	
+	/* Hyperlink styles for the main menu elements */
+		div#menu a:visited {
+			color							: #cc0000;
+			text-decoration			: none;
+		}
+		div#menu a:link {
+			color							: #cc0000;
+			text-decoration			: none;
+		}
+		
+	/* styles for the large unordered list that is the main menu */		
+		ul#mainmenu {
+			margin							: 0em 0em 0em 0em;
+			padding						: 0;
+		} 
+		li.mainmenuitem {
+			display							: block;
+			border							: 1px solid #cc0000;
+			border-bottom				: 0;
+			padding						: 0.5em 0.5em 0.7em 0.5em;
+			width							: auto;
+			float								: left;
+			overflow						: visible;
+			margin							: 0;
+		}
+
+		/* li.active styles - the tab for currently selected pages */
+			li.active {
+				background					: #FFFFFF;
+			}
+			li.active a:link {
+				color							: #000000 !important;
+			}
+			li.active a:visited {
+				color							: #000000 !important;
+			}
+		
+		/* li.hover styles - the appearance of the tab when it is hovered over */
+			li.hover {
+				background	 				: #ebebeb;
+				border-bottom				: 0;
+			}
+			li.hover a:link {
+				color							: #181863 !important;
+			}
+			li.hover a:visited {
+				color							: #181863 !important;
+			}
+			
+		/* li.inactive styles - the appearance of the tabs for sections that the user currently isn't in */
+			li.inactive{
+				background					: #ebebeb;
+			}
+			
+	/* submenu - the cascading menus */
+		ul.submenu{
+			display						: none;
+			position						: absolute;
+			background					: #cc0000;
+			border						: 1px solid #cc0000;
+			margin						: 0.5em 0em 0em -0.55em;
+			padding						: 0em 0em 1px 0em;
+			list-style						: none;
+			font-weight					: normal;
+			width							: 19em;
+		}
+		ul.submenu a{
+			display							: block;
+			height							: 2em;
+			margin							: 0;
+			padding						: 0.5em 0.5em 0 0.5em;
+			border							: 1px solid #FEFBF4;
+		}
+		ul.subsubmenu a{
+			padding-left					: 2em;
+		}
+		li.submenuitem{
+			margin							: 0em;
+			padding							: 0em;
+		}
+		
+		
+		
+		
+		li.submenuitem a:link {
+			color							: #181863 !important;
+		}
+		li.submenuitem a:visited {
+			color							: #181863 !important;
+		}
+		ul.subsubmenu{
+			list-style						: none;
+			margin							: 0em 0em 0em 0em;
+			padding						: 0em;
+		}
+		li.subsubmenuitem{
+			margin							: 0em;
+			padding						: 0em;
+		}
+		ul.submenu a:hover , ul.submenu a:focus {
+			background-color			: #E9E8E7;
+			border-left					: 1px solid #FFFFFF;
+			border-right					: 1px solid #FFFFFF;
+		}
+
+/* DIV contentarea - the div that holds the main content for a page */
+div#contentarea{
+	width							: 100%;
+	clear								: both;
+}
+
+/* DIV footer - the footer at the bottom of the page */
+	div#footer{
+		padding						: 1em 0.5em 0 0.5em;
+		margin							: 0.5em 0 0 0;
+		text-align						: right;
+		color							: #cc0000;
+	}
+	div#footer p{
+		padding						: 0 0 0.5em 0;
+		margin							: 0;
+	}
+	.menunolink
+	{
+		color							: #181863 !important;
+		padding-left					: .5em;
+	}

@@ -1,0 +1,6 @@
+<locale language="English" codex="EN" files="polls_general.xml">
+
+	<localisation code="POLL_QUESTION"><![CDATA[Question]]></localisation>  
+	<localisation code="POLL_ANSWER"><![CDATA[Answer ......]]></localisation>  
+</locale>
+	

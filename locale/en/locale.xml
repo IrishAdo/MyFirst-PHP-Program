@@ -1,0 +1,146 @@
+<locale language="English" codex="EN" file="locale.xml">
+<!-- Locale Strings for general display-->	
+	<localisation code="GENERAL"><![CDATA[General]]></localisation> 
+	<localisation code="ENTRY_NUMBER_POSTS"><![CDATA[No# Posts]]></localisation> 
+	<localisation code="LOCALE_NA"><![CDATA[NA]]></localisation> 
+<!-- Locale Strings for lists -->	
+	<localisation code="DISPLAYING_RESULTS"><![CDATA[Displaying Results ]]></localisation> 
+	<localisation code="DISPLAY_TO"><![CDATA[ to ]]></localisation> 
+	<localisation code="DISPLAY_OF"><![CDATA[ of ]]></localisation> 
+	<localisation code="RESULT"><![CDATA[ Result(s) ]]></localisation> 
+	<localisation code="ONE_RESULT"><![CDATA[One Result Returned]]></localisation> 
+	<localisation code="SORRY_NO_RESULTS"><![CDATA[No results returned]]></localisation>
+<!-- Locale Strings for Page spanning-->	
+	<localisation code="LOCALE_NEXT"><![CDATA[Next]]></localisation> 
+	<localisation code="LOCALE_PREVIOUS"><![CDATA[Previous]]></localisation> 
+	<localisation code="LOCALE_PAGE"><![CDATA[Page]]></localisation> 
+<!-- Locale Strings for form display-->	
+	<localisation code="LOCALE_REQUIRED_FIELDS"><![CDATA[Required Fields]]></localisation> 
+	<localisation code="LOCALE_ADD_NEW_ENTRY"><![CDATA[Add to List]]></localisation> 
+<!-- Locale Strings for form display-->	
+	<localisation code="ENTRY_FORMAT_RICHTEXT"><![CDATA[Richtext]]></localisation> 
+	<localisation code="ENTRY_FORMAT_HTML"><![CDATA[HTML]]></localisation> 
+	<localisation code="LOCALE_PLAINTEXT"><![CDATA[Plain Text]]></localisation> 
+	<localisation code="LOCALE_RICHTEXT"><![CDATA[HTML]]></localisation> 
+<!-- Locale Strings for Administration Menu display-->	
+	<localisation code="LOCALE_HOME"><![CDATA[Home]]></localisation> 
+	<localisation code="LOCALE_HELP"><![CDATA[Libertas Help]]></localisation> 
+<!-- Locale Strings for LAYOUT display-->	
+	<localisation code="LOCALE_TITLE"><![CDATA[Title]]></localisation> 
+	<localisation code="LOCALE_RANK"><![CDATA[Pos]]></localisation> 
+	<localisation code="LOCALE_SOURCE"><![CDATA[Src]]></localisation> 
+	<localisation code="LOCALE_DESTINATION"><![CDATA[Dst]]></localisation> 
+	<localisation code="LOCALE_MENU_TITLE_DOCUMENT"><![CDATA[This position is considered to be the title page]]></localisation> 
+	<localisation code="EDIT_EXISTING"><![CDATA[Edit]]></localisation> 
+	<localisation code="LOCALE_MODIFY_CHANNELS"><![CDATA[Modify Channels]]></localisation> 
+	<localisation code="LOCALE_MODIFY_GROUPS"><![CDATA[Modify Group access]]></localisation> 
+	<localisation code="LOCALE_RANK_PAGES"><![CDATA[Order pages]]></localisation> 
+	<localisation code="REMOVE_EXISTING"><![CDATA[Delete]]></localisation> 
+	
+<!-- Locale Strings for FILE display-->	
+	<localisation code="FILE_SIZE"><![CDATA[Size]]></localisation> 
+	<localisation code="FILE_MEASURE_BYTES"><![CDATA[ bytes]]></localisation> 
+
+<!-- Locale Strings for user display-->	
+	<localisation code="LOCALE_NOT_LOGGED_IN"><![CDATA[You are not logged in yet]]></localisation>
+	<localisation code="LOCALE_LOGIN"><![CDATA[Login]]></localisation>
+	<localisation code="LOCALE_WELCOME_BACK_MSG"><![CDATA[Welcome back ]]></localisation>
+	<localisation code="LOCALE_LOGOUT"><![CDATA[Logout]]></localisation>
+	<localisation code="LOCALE_YOU_ARE_HERE"><![CDATA[You are here ]]></localisation>
+	<localisation code="LOCALE_SEARCH_BOX_DEFAULT_TXT"><![CDATA[Search phrase]]></localisation>
+	<localisation code="LOCALE_SEARCH_LABEL"><![CDATA[Search site]]></localisation>
+	<localisation code="LOCALE_POWERED_BY"><![CDATA[Powered by]]></localisation>
+	<localisation code="LOCALE_LINK_MORE"><![CDATA[Read more]]></localisation>
+	<localisation code="LOCALE_OPEN_IN_EXTERNAL"><![CDATA[Open this link in a new window ]]></localisation>
+	<localisation code="ENTRY_USERNAME"><![CDATA[Username]]></localisation>
+	<localisation code="ENTRY_PASSWORD"><![CDATA[Password]]></localisation>
+	<localisation code="LOCALE_LOGIN_FORM"><![CDATA[Login form]]></localisation>
+	<localisation code="LOCALE_JOIN_NOW"><![CDATA[Join now]]></localisation>
+	<localisation code="LOCALE_DEFAULT_STRING"><![CDATA[ goes here]]></localisation>
+	<localisation code="LOCALE_BACK"><![CDATA[Back]]></localisation>
+	<localisation code="LOCALE_CLICK_TO_DOWNLOAD"><![CDATA[Start the download of the file ]]></localisation>
+	<localisation code="LOCALE_LIST_OF_FILES"><![CDATA[List of files available to download]]></localisation>
+	<localisation code="LOCALE_PRINTER_FRENDLY"><![CDATA[Print page]]></localisation>
+	<localisation code="LOCALE_SEARCH_BUTTON_ALT"><![CDATA[Go]]></localisation>
+	<localisation code="LOCALE_FOUND_AT"><![CDATA[Source : ]]></localisation>
+	<localisation code="LOCALE_RETURN_TO_SITE"><![CDATA[Return to site]]></localisation>
+	<localisation code="LOCALE_JUMP_TO"><![CDATA[Jump to this location : ]]></localisation>
+	
+	<localisation code="LOCALE_COMMENT_ADD"><![CDATA[Add a Comment]]></localisation>
+	<localisation code="LOCALE_JUMP_TO_COMMENTS"><![CDATA[Comments]]></localisation>
+	<localisation code="LOCALE_COMMENTS"><![CDATA[Comments]]></localisation>
+	<localisation code="LOCALE_BE_THE_FIRST"><![CDATA[Be the first to add your comment]]></localisation>
+	<localisation code="LOCALE_CONTACT_COMPANY"><![CDATA[Company]]></localisation>
+	<localisation code="LOCALE_TOP_OF_PAGE"><![CDATA[Top of page]]></localisation>
+	<localisation code="LOCALE_STATS_OS"><![CDATA[ ]]></localisation>
+	<localisation code="LOCALE_KEY"><![CDATA[Graph Key]]></localisation>
+	<localisation code="LOCALE_STATS_LIST_OF_REPORTS"><![CDATA[List of results available in this report]]></localisation>
+	
+	<localisation code="LOCALE_COMMENT_NUMBER"><![CDATA[No]]></localisation>
+	<localisation code="LOCALE_REPLY_TO_COMMENT"><![CDATA[Reply to this comment]]></localisation>
+	<localisation code="LOCALE_USER"><![CDATA[Author]]></localisation>
+	<localisation code="LOCALE_PUBLISHED"><![CDATA[Published]]></localisation>
+	<localisation code="LOCALE_IN_RESPONSE_TO"><![CDATA[In Response to]]></localisation>
+	<localisation code="LOCALE_EMAIL_THIS_PAGE"><![CDATA[Tell a friend about this]]></localisation>
+	<localisation code="LOCALE_EMAIL_THIS_PAGE_NIRVANA"><![CDATA[Send a hint about this]]></localisation>
+
+<localisation code="LOCALE_NO_FILE_ASSOCIATIONS"><![CDATA[No File Associations.]]></localisation>
+	<localisation code="ENTRY_NUMBER_THREADS"><![CDATA[No# Threads]]></localisation>
+	<localisation code="LOCALE_RETURN_TO"><![CDATA[Return to ]]></localisation>
+	<localisation code="LOCALE_NO_KEYWORDS"><![CDATA[Sorry there are currently no keywords available to choose between. Please fill in a description and then select the regnerate keywords button.]]></localisation>
+	<localisation code="LOCALE_CMD_AUTO_FORMAT"><![CDATA[<img alt="Automatically remove formatting on Paste" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_paste_and_auto_clean.gif"/><span>Automatically remove formatting on Paste</span>]]></localisation>
+	<localisation code="LOCALE_CUT_COPY_PASTE"><![CDATA[<img alt="cut" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_cut.gif"/><img alt="copy" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_copy.gif"/><img alt="paste" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_paste.gif"/>]]></localisation>
+	<localisation code="LOCALE_PASTE_SPECIAL"><![CDATA[<img alt="Paste Special" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_paste_special.gif"/>]]></localisation>
+	<localisation code="LOCALE_UNDO_REDO"><![CDATA[<img alt="undo" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_undo.gif"/><img alt="redo" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_redo.gif"/>]]></localisation>
+	<localisation code="LOCALE_BOLD_ITALIC_UNDERLINE"><![CDATA[<img alt="Bold" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_bold.gif"/><img alt="italic" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_italic.gif"/><img alt="underline" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_underline.gif"/>]]></localisation>
+	<localisation code="LOCALE_INTERNAL_LINK"><![CDATA[<img alt="Internal Site Links" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_hyperlink.gif"/>]]></localisation>
+	<localisation code="LOCALE_EXTERNAL_LINK"><![CDATA[<img alt="External Site Links" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_externallink.gif"/>]]></localisation>
+	<localisation code="LOCALE_EMAIL_LINK"><![CDATA[<img alt="Email Links" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_emaillink.gif"/>]]></localisation>
+	<localisation code="LOCALE_FILE_LINK"><![CDATA[<img alt="File Link" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_filelink.gif"/>]]></localisation>
+	<localisation code="LOCALE_INSERT_IMAGES"><![CDATA[<img alt="Insert Images" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_image_insert.gif"/><img alt="Image Properties" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_image_prop.gif"/>]]></localisation>
+	<localisation code="LOCALE_INSERT_SPECIAL_CHARACTER"><![CDATA[<img alt="Special Characters" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_special_character.gif"/>]]></localisation>
+	<localisation code="LOCALE_INSERT_HORIZONTAL_LINE"><![CDATA[<img alt="Horizontal Line" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_hr.gif"/>]]></localisation>
+	<localisation code="LOCALE_DEFINE_HEADING"><![CDATA[<img alt="headings" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_font_header.gif"/>]]></localisation>
+	<localisation code="LOCALE_CMD_CAN_TOGGLE_DESIGN"><![CDATA[<img alt="Toggle Design" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_toggle_mode.gif"/> <span>Can toggle between Design and HTML mode</span>]]></localisation>
+	<localisation code="LOCALE_TIDY"><![CDATA[<img alt="Tidy up formatting from programs like word" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_cleanup.gif"/>]]></localisation>
+	<localisation code="LOCALE_INDENT_UNINDENT"><![CDATA[<img alt="Indent" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_indent.gif"/><img alt="unindent" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_unindent.gif"/>]]></localisation>
+	<localisation code="LOCALE_CAN_BULLET"><![CDATA[<img alt="Bullet points" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_bulleted_list.gif"/><img alt="Numbered List" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_ordered_list.gif"/>]]></localisation>
+	<localisation code="LOCALE_CAN_EMBED_FORM"><![CDATA[<img alt="Embed Forms in editor" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_form.gif"/>]]></localisation>
+	<localisation code="LOCALE_CAN_SET_FT"><![CDATA[<img alt="Define the font to use" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_font_family.gif"/>]]></localisation>
+	<localisation code="LOCALE_CAN_SET_FS"><![CDATA[<img alt="Define the font size" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_font_size.gif"/>]]></localisation>
+	<localisation code="LOCALE_CAN_SET_FC"><![CDATA[<img alt="Define the color to use" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_fore_color.gif"/>]]></localisation>
+	<localisation code="LOCALE_CAN_SET_BG"><![CDATA[<img alt="Define the background colour" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_bg_color.gif"/>]]></localisation>
+	<localisation code="LOCALE_SUB_SUPER_STRIKE"><![CDATA[<img alt="subscript" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_subscript.gif"/><img alt="superscript" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_superscript.gif"/><img alt="strike through" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_strikethrough.gif"/>]]></localisation>
+	<localisation code="LOCALE_CAN_EMBED_FLASH"><![CDATA[<img alt="Embed Flash" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_flash.gif"/>]]></localisation>
+	<localisation code="LOCALE_CAN_EMBED_MOVIE"><![CDATA[<img alt="Embed Movies" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_movie.gif"/>]]></localisation>
+	<localisation code="LOCALE_CAN_EMBED_AUDIO"><![CDATA[<img alt="Embed Audio" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_audio.gif"/>]]></localisation>
+	<localisation code="LOCALE_FIND_REPLACE"><![CDATA[<img alt="Find" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_find.gif"/><img alt="Replace" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_replace.gif"/>]]></localisation>
+	<localisation code="LOCALE_PAGE_PROPERTIES"><![CDATA[<img alt="Pae Properties" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_page_prop.gif"/>]]></localisation>
+	<localisation code="LOCALE_TABLE_BASIC"><![CDATA[<img alt="Toggle Borders" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_toggle_borders.gif"/><img alt="Create Table" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_table_create.gif"/><img alt="Table Properties" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_table_prop.gif"/>]]></localisation>
+	<localisation code="LOCALE_TABLE_CELL"><![CDATA[<img alt="Cell Properties" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_table_cell_prop.gif"/>]]></localisation>
+	<localisation code="LOCALE_TABLE_ROW_COLUMN"><![CDATA[<img alt="Insert Row" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_table_row_insert.gif"/><img alt="Insert Column" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_table_column_insert.gif"/><img alt="Delete Row" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_table_row_delete.gif"/><img alt="Delete Column" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_table_column_delete.gif"/>]]></localisation>
+	<localisation code="LOCALE_ACRONYMS_AND_ABBR"><![CDATA[<img alt="Manage Acronyms" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_acronym.gif"/>]]></localisation>
+	<localisation code="LOCALE_TABLE_CELL_SPLIT_MERGE"><![CDATA[<img alt=" split Vertical" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_table_cell_split_vertical.gif"/><img alt="Split Horizontal" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_table_cell_split_horizontal.gif"/><img alt="Merge Down" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_table_cell_merge_down.gif"/><img alt="Merge Right" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_table_cell_merge_right.gif"/>]]></localisation>
+	<localisation code="LOCALE_TABLE_ADVANCED"><![CDATA[Table management advanced]]></localisation>
+	<localisation code="LOCALE_JUSTICICATION"><![CDATA[<img alt="left" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_left.gif"/><img alt="Center" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_center.gif"/><img alt="Right" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_right.gif"/><img alt="Justify" src="/libertas_images/editor/libertas/lib/themes/default/img/tb_justify.gif"/>]]></localisation>
+	<localisation code="LOCALE_CMD_TABLE_CELL_COLOUR"><![CDATA[<img src="/libertas_images/editor/libertas/lib/themes/default/img/tb_table_set_cell_backgroun.gif" alt="Can set cell Background colour"/> Can set background colour of Cell]]></localisation>
+	<localisation code="LOCALE_CMD_TABLE_COLOUR"><![CDATA[<img src="/libertas_images/editor/libertas/lib/themes/default/img/tb_table_set_background.gif" alt="Can set table Background colour"/>  Can set background colour of Table]]></localisation>
+	<localisation code="LOCALE_CMD_CONTEXT_SENSITIVE_MENU"><![CDATA[<img src="/libertas_images/editor/libertas/lib/themes/default/img/tb_context.gif" alt="Use context sensitive Menu"/>  Use context sensitive Menu (Disable for Speed Increase)]]></localisation>
+	<localisation code="LOCALE_SPELL_CHECK"><![CDATA[<img src="/libertas_images/editor/libertas/lib/themes/default/img/tb_spell.gif" alt="Check this document for spelling mistakes"/>]]></localisation>
+	<localisation code="LOCALE_THESUARUS"><![CDATA[<img src="/libertas_images/editor/libertas/lib/themes/default/img/tb_thesaurus.gif" alt="Lookup word in Thesaurus"/>]]></localisation>
+	<localisation code="LOCALE_SET_ZOOM"><![CDATA[<img src="/libertas_images/editor/libertas/lib/themes/default/img/tb_set_zoom.gif" alt="Set page magification"/>]]></localisation>
+	<localisation code="LOCALE_DEFINE_SLIDESHOW"><![CDATA[<img src="/libertas_images/editor/libertas/lib/themes/default/img/tb_slideshow.gif" alt="Define a Slieshow image"/>]]></localisation>
+	<localisation code="LOCALE_ONLINE_HELP"><![CDATA[<img src="/libertas_images/editor/libertas/lib/themes/default/img/tb_help.gif" alt="On line Help"/>]]></localisation>
+	<localisation code="LOCALE_LAYOUTADMIN_ACCESS_RESTRICTIONS"><![CDATA[Access restrictions]]></localisation>
+	<localisation code="LOCALE_ADVANCED_OPTIONS"><![CDATA[Advanced Options]]></localisation>
+	<localisation code="LOCALE_ELERT_SIGNUP"><![CDATA[Alert me on a new post]]></localisation>
+	<localisation code="LOCALE_FULL_GRAPHICS"><![CDATA[Graphical Mode]]></localisation>
+	<localisation code="LOCALE_LOW_GRAPHICS"><![CDATA[Low Graphics Version]]></localisation>
+	<localisation code="LOCALE_XPRINTER_FRENDLY"><![CDATA[Switch Off Printer Friendly]]></localisation>
+	<localisation code="LOCALE_SP_FILE_LIST_FORMAT"><![CDATA[File List Format]]></localisation>
+	<localisation code="LOCALE_PROFILE"><![CDATA[Edit Profile]]></localisation>
+	
+	<!-- Modify by Ali Imran -->
+	<localisation code="SUBSCRIBE_EXISTING"><![CDATA[Subscribe]]></localisation> 
+	<!--End of Modification of Ali Imran -->
+</locale>

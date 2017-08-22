@@ -1,0 +1,9 @@
+<locale language="English" codex="EN" file="group_menu.xml">
+
+<!-- Management Labels-->
+	<localisation code="MANAGEMENT_GROUP"><![CDATA[Group Management]]></localisation> 
+
+<!-- Manage Labels-->
+	<localisation code="MANAGE_GROUP"><![CDATA[Manage Groups]]></localisation> 
+</locale>
+	

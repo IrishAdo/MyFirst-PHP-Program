@@ -1,0 +1,11 @@
+<locale language="English" codex="EN" file="forum_admin.xml">
+
+	<localisation code="LOCALE_HOW_TO_WRITE_SWEAR_LIST"><![CDATA[Supply one word per line]]></localisation>
+	<localisation code="MANAGE_THREADS"><![CDATA[Manage the threads of this forum]]></localisation>
+	<localisation code="LOCALE_SWEAR_KEYWORD_LIST"><![CDATA[Swear words]]></localisation>
+	<localisation code="FORUM_TITLE_LABEL"><![CDATA[Forum management]]></localisation>  
+	<localisation code="FORUM_GOES_HERE"><![CDATA[Return to the list of forum]]></localisation>  
+	<localisation code="FORUM_STATUS"><![CDATA[Forum status]]></localisation>  
+
+</locale>
+	

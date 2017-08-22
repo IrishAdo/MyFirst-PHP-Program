@@ -1,0 +1,9 @@
+<locale language="English" codex="EN" files="system_pref_menu.xml">
+
+<!-- Management Labels-->
+	<localisation code="MANAGEMENT_SYS_PREF"><![CDATA[System Preference Management]]></localisation> 
+
+<!-- Manage Labels-->
+	<localisation code="MANAGE_SYS_PREF"><![CDATA[Manage System Preferences]]></localisation> 
+</locale>
+	

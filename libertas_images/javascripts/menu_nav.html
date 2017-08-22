@@ -1,0 +1,77 @@
+<html >
+<head>
+<link rel="stylesheet" type="text/css" href="/libertas_images/themes/site_administration/style.css">
+<style>
+	.white {
+		background-color:#ffffff;
+	}
+</style>
+</head>
+
+<body class="white">
+<script src="/libertas_images/javascripts/treemenu.js"></script>
+<script src="/libertas_images/javascripts/detectbrowser.js"></script>
+<script>
+
+USETEXTLINKS 	= 1  
+USEFRAMES		= 0
+STARTALLOPEN 	= 0
+HIGHLIGHT 		= 1
+PERSERVESTATE 	= 0
+
+
+var counterI = 0
+function insFldX(parentOb, childOb)
+{
+  childOb.xID = 'X' + counterI;
+  counterI--;
+  return insFld(parentOb, childOb)
+}
+function insDocX(parentOb, childOb)
+{
+  childOb.xID = 'Y' + counterI;
+  counterI--;
+  return insDoc(parentOb, childOb)
+}
+
+
+
+foldersTree1 		= gFld("Special Filters", "")
+foldersTree1.treeID = "treeStructure"
+foldersTree1.xID 	= 'X2'; 
+
+
+foldersTree2 = gFld("Filter by Menu Location", "")
+foldersTree2.treeID = "treeStructure"
+foldersTree2.xID = 'X2'; 
+counterI--;
+var filterparameter = parent.frames["menu_tree"].parent.filterparameter;
+var specialmenu = parent.frames["menu_tree"].parent.specialLinks[0];
+var mymenu = parent.frames["menu_tree"].parent.specialLinks[1];
+var base_href = parent.frames["menu_tree"].parent.base_href;
+var session_url = parent.frames["menu_tree"].parent.session_url;
+
+
+function display_menu(m, f, l ,u){
+	for (var i = 0; i<m.length;i++){
+		if (m[i][4].length>0){
+			folder = insFldX(f, gFld(m[i][1], base_href+"admin/index.php"+filterparameter+""+m[i][0]+"&"+session_url))	
+			display_menu(m[i][4], folder, m[i][1])
+		} else {
+			folder = insFldX(f, gFld(m[i][1], base_href+"admin/index.php"+filterparameter+""+m[i][0]+"&"+session_url))
+		}
+	}
+}
+
+//display_menu(specialmenu, foldersTree1,"");
+folder = insDocX( foldersTree1, gLnk("T f", specialmenu[0][1], base_href+"admin/index.php"+specialmenu[0][2]+"&"+session_url ) );
+folder = insDocX( foldersTree1, gLnk("T f", specialmenu[1][1], base_href+"admin/index.php"+specialmenu[1][2]+"&"+session_url ) );
+folder = insDocX( foldersTree1, gLnk("T f", specialmenu[2][1], base_href+"admin/index.php"+specialmenu[2][2]+"&"+session_url ) );
+
+initializeDocument("Special Filter",foldersTree1);
+
+display_menu(mymenu, foldersTree2,"");
+initializeDocument("Filter by Menu",foldersTree2);
+</script>
+</body>
+</html>

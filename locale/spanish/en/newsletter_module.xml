@@ -1,0 +1,15 @@
+<locale language="English" codex="EN" files="newsletter_module.xml">
+
+	<localisation code="LOCALE_NEWSLETTER_SIGN_UP"><![CDATA[Sign up for our newsletter now]]></localisation>
+	<localisation code="LOCALE_EMAIL_FORMATTING"><![CDATA[What type of format do you wish to receive]]></localisation>
+	<localisation code="LOCALE_PLAINTEXT"><![CDATA[Plain]]></localisation>
+	<localisation code="LOCALE_RICHTEXT"><![CDATA[HTML]]></localisation>
+	<localisation code="LOCALE_EMAIL"><![CDATA[Your email]]></localisation>
+	<localisation code="LOCALE_UNSUBSCRIBE_CONFIRM_MSG"><![CDATA[Thank you, <br> You have been successfully removed from the list of subscribed users]]></localisation>
+	<localisation code="LOCALE_UNSUBSCRIBE_CONFIRM"><![CDATA[Newsletter unsubscription confirmation]]></localisation>
+	<localisation code="LOCALE_SIGNUP_TO_A_NEWSLETTER"><![CDATA[Sign up to one of our newsletters]]></localisation>
+	<localisation code="LOCALE_NEWSLETTER_SIGNUPS"><![CDATA[Choose newsletters from our selection.]]></localisation>
+
+
+</locale>
+	

@@ -1,0 +1,19 @@
+<locale language="English" codex="EN" files="standard_forms_admin.xml">
+	<localisation code="LOCALE_STANDARD_FORM_SPLASH"><![CDATA[
+	<h1>Standard Form Management</h1>
+	<p>Welcome to the standard form management section of the administration.</p>
+	<p>You can choose from the following options.
+	<ul>
+		<li><a href="admin/index.php?command=SFORM_LIST">Place a form in a specific location on your site.</a></li>
+		<li><a href="admin/index.php?command=SFORM_FORM_ACCESS_LIST">Manage the fields that are available on specific forms.</a></li>
+	</ul>
+	</p>
+	]]></localisation>
+	<localisation code="LOCALE_FORM"><![CDATA[Form displayed]]></localisation>
+	<localisation code="LOCALE_EMAIL_SENT_TO"><![CDATA[If this form emails you it will send it to the following email address, and if this form emails a customer then this is the email address that it will send it from allowing customers to reply easily to the email in question.]]></localisation>
+	<localisation code="LOCALE_FOMR_STRUCTURE_MANAGMENT"><![CDATA[You can decide if the following fields are available and if they are required.]]></localisation>
+	<localisation code="SFORM_DISPLAY_CONTACT_US"><![CDATA[Display a Contact us form]]></localisation>  
+	<localisation code="LOCALE_ADD_A_FOR_TO_A_LOCATION_MSG"><![CDATA[You have chosen to add a standard form to the web site.  Please choose the form and the location you wish the form to appear.]]></localisation>
+
+</locale>
+	

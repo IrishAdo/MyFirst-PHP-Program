@@ -1,0 +1,325 @@
+<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN"><?php
+/*
+	-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	- L I B E R T A S   S O L U T I O N S   Image Selector   -   D I A L O G   
+	-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	- 
+	- Not part of the editor seperate available to other form to allow selection of images
+	- 
+	-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	-	Modified $Date: 2004/10/28 14:05:39 $
+	-	$Revision: 1.2 $
+	-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+*/	
+include '../config/libertas_control.config.php';
+include $libertas_locale.'en/locale.php';
+include $libertas_locale.'en/locale_general.php';
+
+$session_url= "LEI=".check_parameters($_GET,"LEI","NA");
+$domain 	= $_SERVER["HTTP_HOST"];
+$base_href 	= "http://$domain".check_parameters($_GET,"base_href","/");
+
+function check_parameters($arr,$ind,$def=""){
+	if (isset($arr[$ind])){
+		return $arr[$ind];
+	} else {
+		return $def;
+	}
+}
+
+$product = check_parameters($_GET,"product","");
+/*
+	less than 
+*/
+?>
+<html>
+<head>
+<title>Insert Image</title>
+<meta http-equiv="Pragma" content="no-cache">
+<link rel="stylesheet" type="text/css" href="/libertas_images/editor/libertas/lib/themes/default/css/dialog.css">
+</head>
+<body onLoad="Init()">
+	<form name="image_browser" method="post" action="">		
+		<input type="hidden" name="theme" value="default">		
+		<input type="hidden" name="lang" value="en">		
+		<input type="hidden" name="images" value="">
+		<div style="border: 1 solid Black; padding: 5 5 5 5;">
+			<p id="tableProps" class="tablePropsTitle"><img src='/libertas_images/editor/libertas/lib/themes/default/img/tb_image_insert.gif'/>Image Insertion Manager</p>
+			<table width='450px' border="0">
+				<tr>
+					<td><strong>Filter Type</strong></td>
+					<td>
+					<select name='filterType' style='width:300px' onChange='parent.ShowFilter();'>
+						<option>Filter by Date</option>
+						<option>Filter by Category</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td><strong>Filter Option</strong></td>
+					<td>
+					<select id='filterOption' name='filterOption' style='width:300px' onChange='parent.ShowImageList(0);'>
+						<option>Loading filters.....</option>
+					</select></td>
+				</tr>
+				<tr id="ImageList">
+					<td><strong>Select Image</strong></td>
+					<td>
+					<select id='imagesrc' name='imagesrc' style='width:300px' onChange='parent.ShowImage(this.document);'>
+						<option>Select filter option first .....</option>
+					</select></td>
+				</tr>
+				<tr id="ImageData">
+					<td valign="top">
+						<p>Preview</p>
+						<img border="1" src='/libertas_images/themes/1x1.gif' width="130" height="130" id='imagepreview'>
+					</td>
+					<td valign='top'><table>
+						<tr>
+							<td colspan="2"><strong>Alt Tag information</strong></td>
+						</tr>
+						<tr>
+							<td colspan="2"><input type=text id='imagealt' size=255 style='width:230px'><input type=hidden id='imageexisting' value=''></td>
+						</tr>
+						<tr>
+							<td id='imagesize' colspan="2">
+								<strong>Width:</strong> <em>X px</em>&#160;
+								<strong>Height:</strong> <em>Y px</em><br>
+								<strong>Size:</strong><br>
+								<strong>Approximate Download Speeds:</strong><br>
+								<em>56k:</em> X secs &#160;<em>ISDN:</em> X sec
+							</td>
+						</tr>
+					</table></td>
+				</tr>
+				<tr>
+					<td>				
+						<input ONCLICK="selectClick()" TYPE=button class="bt" ID=idSave  VALUE="<?php echo LOCALE_SELECT; ?>">
+						<input class="bt" ONCLICK="window.close()" TYPE=reset ID=idCancel VALUE="<?php echo LOCALE_CANCEL;?>">
+					</td>
+				</tr>
+			</table>
+		</div>
+	</form>
+<script language="javascript" src="utils.js"></script>
+<script language="javascript"><!--
+window.name = 'imglibrary';
+var myCategoryList = Array();
+var winOpener = window.dialogArguments.document.parentWindow;
+var base_href ='<?php print $base_href; ?>';
+var session_url ='<?php print $session_url; ?>';
+ShowFilter();
+Init();
+function get_images(){
+	
+	if (window.dialogArguments.document.cache_data.document.readyState=='complete'){
+		if (window.dialogArguments.document.cache_data.frmDoc.image_data.value!=''){
+			if (window.dialogArguments.document.cache_data.frmDoc.image_data.value!='__NOT_FOUND__'){
+				tmp 			= new String(window.dialogArguments.document.cache_data.frmDoc.image_data.value);
+				window.dialogArguments.document.cache_data.frmDoc.image_data.value="";
+				myArray 		= tmp.split("|1234567890|")
+				var l				= myArray.length-1;
+				list="";
+				document.image_browser.imagesrc.options.length=0
+				for (var i = 0 ; i < l ; i += 2){
+					document.image_browser.imagesrc.options[document.image_browser.imagesrc.options.length] = new Option(
+						convert_special_characters(myArray[i],false), 
+						convert_special_characters(myArray[i+1],false)
+					);
+				}
+			} else {
+				alert("Sorry there are no images available");
+				window.dialogArguments.document.cache_data.frmDoc.image_data.value="";
+			}
+		} else {
+			setTimeout("get_images()",1000);
+		}
+	} else {
+		setTimeout("get_images()",1000);
+	}
+}
+
+function selectClick(){
+	if (document.image_browser.imagesrc.selectedIndex>0){
+		window.returnValue = returnImage();
+		window.close();
+	} else {
+		alert('Please select an image to insert');
+	}
+}
+    
+function Init(){
+	resizeDialogToContent();
+}
+function returnImage(){
+	source = document.all.imagesrc.options[document.all.imagesrc.selectedIndex].value.split("::");
+//	alert(document.all.imagesrc.options[document.all.imagesrc.selectedIndex].value);
+	md_arr=source[0].split("/");
+	f = md_arr[md_arr.length-1];
+	t = f.split(".");
+	md5 = t[0];
+	var item = {};
+	item.id 			 	= source[source.length-1];
+	item.source 			= base_href+source[0];
+	item.alt				= new String(escape(document.all.imagealt.value)).split("%20").join(" ").split('%22').join('&#34;').split('%27').join('&#39;');
+	return item	;
+}	
+/*
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-													E N T E R P R I S E   F u n c t i o n s
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+fn::get_categories()
+fn::ShowImageList(actiontype)
+fn::define_pulldown(elementparent, mydepth)
+fn::ShowFilter()
+*/
+
+	function get_categories(){
+		if (window.dialogArguments.document.cache_data.document.readyState=='complete'){
+			if (window.dialogArguments.document.cache_data.frmDoc.category_data.value!=''){
+				if (window.dialogArguments.document.cache_data.frmDoc.category_data.value!='__NOT_FOUND__'){
+					tmp 			= new String(window.dialogArguments.document.cache_data.frmDoc.category_data.value);
+					myArray 		= tmp.split("|1234567890|")
+					var l			= myArray.length;
+					list="";
+					document.image_browser.filterOption.options.length=0
+					/* example of categorization feed
+						format (parent id::identifier::label)
+						'13::14::Images',
+						'14::16::Layout Images',
+						'14::18::Page Content',
+						'14::15::RSS Channels',	
+						'13::17::Other'
+					*/
+					for (var i = 0 ; i < l ; i ++){
+						myArray[i] = myArray[i].split("::")
+					}
+					myCategoryList = myArray;
+					rootparent	= myArray[0][0];
+					depth 		= 0;
+					prev_parent = 0;
+					document.image_browser.filterOption.options[document.image_browser.filterOption.options.length] = new Option("Select filter option", 0);
+					document.image_browser.filterOption.options[document.image_browser.filterOption.options.length] = new Option("-------------------- Special Filters --------------------", -1);
+					document.image_browser.filterOption.options[document.image_browser.filterOption.options.length] = new Option("Show all Images", -1);
+					document.image_browser.filterOption.options[document.image_browser.filterOption.options.length] = new Option("Show Uncategorised Images", -1);
+					document.image_browser.filterOption.options[document.image_browser.filterOption.options.length] = new Option("-------------------- By Category --------------------", -1);
+					define_pulldown(rootparent, depth);
+				} else {
+					alert("Sorry there are no Categories available");
+					ShowImageList(1);
+				}
+				resizeDialogToContent();
+			} else {
+				setTimeout("get_categories()", 1000);
+			}
+		} else {
+			setTimeout("get_categories()", 1000);
+		}
+	}
+	function ShowImageList(actiontype){
+		if (actiontype==0){
+			cat = document.image_browser.filterOption;
+			switch (document.image_browser.filterType.selectedIndex){
+				case 0:
+					if (cat.selectedIndex==0){
+					}else{
+						imgtag 		= document.getElementById("imagepreview");
+						imgtag.src	= '/libertas_images/themes/1x1.gif';
+						opt = document.image_browser.imagesrc
+						opt.options.length=0;
+						opt.options[opt.options.length] = new Option("Please wait downloading list of images.")
+						if (cat.selectedIndex==1){
+							winOpener.__extract_information('image','date=1day');
+							setTimeout("get_images()",1000);
+						} else if (cat.selectedIndex==2){
+							winOpener.__extract_information('image','date=1week');
+							setTimeout("get_images()",1000);
+						} else if (cat.selectedIndex==3){
+							winOpener.__extract_information('image','date=4weeks');
+							setTimeout("get_images()",1000);
+						} else {
+							winOpener.__extract_information('image');
+							setTimeout("get_images()",1000);
+						}		
+					}
+					break
+				case 1:
+					if ((cat.selectedIndex==0)||(cat.selectedIndex==1)||(cat.selectedIndex==4)){
+					}else{
+						imgtag 		= document.getElementById("imagepreview");
+						imgtag.src	= '/libertas_images/themes/1x1.gif';
+						opt = document.image_browser.imagesrc
+						opt.options.length=0;
+						opt.options[opt.options.length] = new Option("Please wait downloading list of images.")
+						if (cat.selectedIndex==2){
+							winOpener.__extract_information('image');
+							setTimeout("get_images()",1000);
+						} else if (cat.selectedIndex==3){
+							winOpener.__extract_information('image','cat=undefined');
+							setTimeout("get_images()",1000);
+						} else {
+							winOpener.__extract_information('image','cat='+cat.options[cat.selectedIndex].value);
+							setTimeout("get_images()",1000);
+						}		
+					}
+					break
+			}
+		} else {
+			winOpener.__extract_information('image');
+			setTimeout("get_images()",1000);
+		}
+	}
+	function define_pulldown(elementparent, mydepth){
+		for (var i=0 ; i < myCategoryList.length; i++){
+			if (myCategoryList[i][0] == elementparent){
+				mylabel = myCategoryList[i][2];
+				var str="";
+				for(var myx=0; myx< mydepth; myx++){
+					str+= "&nbsp;-&nbsp;" 
+				}
+				mylabel = str + mylabel;
+				document.image_browser.filterOption.options[document.image_browser.filterOption.options.length] = new Option(
+					convert_special_characters(mylabel,false), 
+					convert_special_characters(myCategoryList[i][1],false)
+				);
+				myparentelement = myCategoryList[i][1];
+				define_pulldown(myparentelement , mydepth+1);
+			}
+		}
+	}
+
+	function ShowFilter(){
+		switch (document.image_browser.filterType.selectedIndex){
+			case 0:
+				opt = document.image_browser.filterOption
+				opt.options.length=0;
+				opt.options[opt.options.length] = new Option("Select filter option");
+				opt.options[opt.options.length] = new Option("Show images less than 1 day old");
+				opt.options[opt.options.length] = new Option("Show images less than 1 week old");
+				opt.options[opt.options.length] = new Option("Show images less than 4 weeks old");
+				opt.options[opt.options.length] = new Option("Show all images");
+				
+				opt = document.image_browser.imagesrc
+				opt.options.length=0;
+				opt.options[opt.options.length] = new Option("Select filter option first .....");//Please wait downloading list of images.")
+				
+				imgtag 		= document.getElementById("imagepreview");
+				imgtag.src	= '/libertas_images/themes/1x1.gif';
+				break
+			case 1:
+				opt = document.image_browser.imagesrc
+				opt.options.length=0;
+				opt.options[opt.options.length] = new Option("Select filter option first .....");//Please wait downloading list of images.")
+				opt = document.image_browser.filterOption
+				opt.options.length=0;
+				opt.options[opt.options.length] = new Option("Select filter option");
+				winOpener.__extract_information('category','module=FILES_');
+				setTimeout("get_categories()",1000);
+				imgtag 		= document.getElementById("imagepreview");
+				imgtag.src	= '/libertas_images/themes/1x1.gif';
+				break
+		}
+	}
+//-->
+</script>
+</body>
+</html>

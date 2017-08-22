@@ -1,0 +1,13 @@
+<locale language="English" codex="EN" files="layout_menu.xml">
+
+<!-- Management Labels-->
+	<localisation code="MANAGEMENT_LAYOUT"><![CDATA[Layout Management]]></localisation> 
+	<localisation code="MANAGEMENT_DIRECTORY"><![CDATA[Directory Management]]></localisation> 
+	<localisation code="MANAGEMENT_MENU"><![CDATA[Menu Management]]></localisation> 
+
+<!-- Manage Labels-->
+	<localisation code="MANAGE_LAYOUT"><![CDATA[Manage Layout]]></localisation> 
+	<localisation code="MANAGE_DIRECTORY"><![CDATA[Manage Directories]]></localisation> 
+	<localisation code="MANAGE_MENU"><![CDATA[Manage Menus]]></localisation> 
+</locale>
+	

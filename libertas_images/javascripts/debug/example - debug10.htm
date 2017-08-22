@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <title>Debug Console 1.0.0 - Example</title>
+
+    <script type="text/javascript">
+      tw_debug_on=true;    
+      tw_debug_float=true;
+      tw_debug_ascending=true;
+    </script>
+
+    <script src="tw_debug.js" type="text/javascript"></script>
+
+  </head>
+  <body>
+    <center>
+      <h1>Debug Console 1.0.0 - Example</h1>
+    </center>
+
+    <script type="text/javascript">
+      
+      // display the debug-console configuration in the debug-log
+      
+      debug("Display the debug-console-config");
+      debug("-----------------------------------------------------");
+      debug("tw_debug_on = "+tw_debug_on);
+      debug("tw_debug_float = "+tw_debug_float);
+      debug("tw_debug_ascending = "+tw_debug_ascending);
+      
+      // establish a counter that increments with every second until 100 and monitor this counter
+      
+      var timer;
+      var count=0;
+
+      debug_var("count");
+
+      function do_timer(){
+        if (count>=99)clearInterval(timer);
+        count++;
+      }
+      timer=setInterval("do_timer()",1000);
+
+      // establish a function that looks for the position of the mouse and monitor the position of the mouse
+
+      var tw_mouse_x=0;
+      var tw_mouse_y=0;
+
+      debug_var("tw_mouse_x");
+      debug_var("tw_mouse_y");
+
+      function tw_coords(tw_my_event){
+        if(tw_ns){
+          tw_mouse_x=tw_my_event.pageX;
+          tw_mouse_y=tw_my_event.pageY;
+        }else{
+          tw_mouse_x=window.event.clientX;
+          tw_mouse_y=window.event.clientY;
+        }
+      }
+
+      if((tw_ns) && (!tw_dom)){
+        document.captureEvents(Event.MOUSEMOVE);
+        document.onMouseMove=tw_coords;
+      }else{
+        document.onmousemove=tw_coords;
+      }
+
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,410 @@
+/* common elements for Furniture and Contracts layouts */
+/*L4 is homepage, #L31 is other pages within these sites */
+#L4, #L31 {
+	margin: 0px;
+	padding: 0px;
+	background-image: url(images/page_background.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: #FFFFFF;
+}
+#L4 #pagestructure, #L31 #pagestructure {
+	padding: 0px;
+	width: 900px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color: #FFFFFF;
+	position: relative;
+}
+#L4 #pagestructure #header, #L31 #pagestructure #header  {
+	float: left;
+	width: 900px;
+	background-color: #FFFFFF;
+}
+#L4 #pagestructure #header #header-3, #L31 #pagestructure #header #header-3 {
+	float: left;
+	width: 900px;
+	margin: 0px;
+	padding: 0px;
+	height:135px;
+	background-image:url(images/balmoral_logo.jpg);
+	background-repeat: no-repeat;
+}
+#L4 #pagestructure #header #header-3 #positionheader-count-3, #L31 #pagestructure #header #header-3 #positionheader-count-3 {
+	float: left;
+	width: 900px;
+}
+#L4 #pagestructure #header #header-2 #positionheader-count-2 .webobject #pagesearch input,#L31 #pagestructure #header #header-2 #positionheader-count-2 .webobject #pagesearch input {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #999999;
+}
+#L4 #pagestructure #footer, #L31 #pagestructure #footer {
+	float: left;
+	width: 900px;
+	background-image: url(images/footer_background.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+	background-color: #333333;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+#pagestructure #footer a, #pagestructure #footer ul, #pagestructure #footer li, #pagestructure #footer table, #pagestructure #footer td{
+color:#ffffff;
+list-style:none;
+font-size: 11px;
+}
+#L4 #pagestructure #footer #footer-1, #L31 #pagestructure #footer #footer-1 {
+	float: left;
+	width: 200px;
+}
+#L4 #pagestructure #footer #footer-2, #L31 #pagestructure #footer #footer-2 {
+	float: left;
+	width: 200px;
+}
+#L4 #pagestructure #footer #footer-3,#L31 #pagestructure #footer #footer-3 {
+	float: left;
+	width: 500px;
+}
+
+#L4 #pagestructure #header #header-3 #positionheader-count-3 .webobjectcontent h1, #L31 #pagestructure #header #header-3 #positionheader-count-3 .webobjectcontent h1 {
+	display: none;
+}
+#L4 #pagestructure #position1 #position1-3 #position1-count-4 .hightlightall .page h1 {
+	font-family: "Trebuchet MS", arial, sans-serif;
+	font-size: 21px;
+	color: #066633;
+	font-weight: normal;
+	letter-spacing: -1px;
+	margin: 0px;
+	padding: 0px;
+}
+#L4 #pagestructure #position1 #position1-3 #position1-count-4 .hightlightall .page p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	line-height: 18px;
+}
+#L4 #pagestructure #position1 #position1-3 #position1-count-4 .hightlightall .page .pagecontent {
+	margin: 10px;
+	padding-right: 10px;
+}
+#L4 #pagestructure #position1 #position1-3 #position1-count-4 .hightlightall #page2 {
+}
+#pagestructure  .desclink {
+	display: none;
+}
+#L4 #pagestructure #header #header-1, #L31 #pagestructure #header #header-1 {
+	float: left;
+	width: 700px;
+}
+#L4 #pagestructure #header #header-2, #L31 #pagestructure #header #header-2 {
+	float: left;
+	width: 200px;
+	height: 25px;
+	background-image: url(images/menu_background.jpg);
+	background-repeat: no-repeat;
+}
+#pagestructure #header #header-2 #positionheader-count-2 .webobject #pagesearch  .label {
+	display: none;
+}
+#pagestructure #header #header-2 #positionheader-count-2 .webobject #pagesearch  .searchlabel {
+	display: none;
+}
+/*top menu */
+#pagestructure #header #header-1 #positionheader-count-1 .micromenu ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#pagestructure #header #header-1 #positionheader-count-1 .micromenu li {
+	float: left;
+}
+#pagestructure #header #header-1 #positionheader-count-1 .micromenu a {
+	display: block;
+	float: left;
+	height: 25px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	width: 80px;
+	text-align: center;
+	padding-top: 5px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #FFFFFF;
+}
+#pagestructure #header #header-1 #positionheader-count-1 .micromenu {
+	float: left;
+	height: 25px;
+	width: 700px;
+	background-image: url(images/menu_background.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+#pagestructure #header #header-1 #positionheader-count-1 .micromenu .menuon {
+	font-weight: bold;
+}
+#L4 #pagestructure #position1 #position1-3 #position1-count-4 .hightlightall #page2 .pagecontent {
+	padding-bottom: 20px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #999999;
+}
+#L4 #pagestructure #position1 #position1-2 #position1-count-2, #L4 #pagestructure #position1 #position1-2 #position1-count-3 {
+	text-align: center;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+}
+#L4 #pagestructure #position1 #position1-2 #position1-count-2 .webobjectcontent p, #L4 #pagestructure #position1 #position1-2 #position1-count-3 .webobjectcontent p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding: 4px;
+	text-align: right;
+}
+#pagestructure #footer #footer-1 #positionfooter-count-1 {
+	margin: 10px;
+}
+#pagestructure #footer #footer-1 #positionfooter-count-1 .micromenu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#pagestructure #footer #footer-1 #positionfooter-count-1 .micromenu .label {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #F0F0F0;
+	margin-bottom: 10px;
+}
+#pagestructure #footer #footer-2 #positionfooter-count-2 {
+	margin: 10px;
+}
+#pagestructure #footer #footer-2 #positionfooter-count-2 .micromenu .label {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #F0F0F0;
+	margin-bottom: 10px;
+}
+#pagestructure #footer #footer-2 #positionfooter-count-2 .micromenu ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#pagestructure #footer #footer-3 #positionfooter-count-3 .webobjectcontent {
+	margin: 10px;
+}
+
+
+/*entry page only */
+#L112 #pagestructure {
+	width: 978px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#L112 #pagestructure #position1 #position1-1 {
+	float: left;
+	width: 980px;
+}
+#L112 #pagestructure #position1 #position1-1 #position1-count-1 {
+	float: left;
+	width: 326px;
+}
+#L112 #pagestructure #position1 #position1-1 #position1-count-2 {
+	float: left;
+	width: 326px;
+}
+#L112 #pagestructure #position1 #position1-1 #position1-count-3 {
+	float: left;
+	width: 326px;
+}
+/* furniture home page only */
+#L4 #pagestructure #position1 {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 900px;
+	background-color: #FFFFFF;
+}
+#L4 #pagestructure #position1 #position1-1 {
+	float: left;
+	width: 704px;
+}
+#L4 #pagestructure #position1 #position1-2 {
+	float: left;
+	width: 196px;
+	margin: 0px;
+	padding: 0px;
+}
+#L4 #pagestructure #position1 #position1-2 .webobjectcontent p {
+	margin: 0px;
+	padding: 0px;
+}
+#L4 #pagestructure #position1 #position1-3 {
+	float: left;
+	width: 900px;
+	background-image: url(images/gradient_background.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+#L4 #pagestructure #position1 #position1-3 #position1-count-4 {
+	float: left;
+	width: 900px;
+}
+#L4 #pagestructure #position1 #position1-3 #position1-count-4 .hightlightall .page {
+	float: left;
+	width: 440px;
+}#L31 #pagestructure #position1 #position1-1 #position1-count-1 .webobject .breadcrumb {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #999999;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+#L31 #pagestructure #position1 #position1-1 #position1-count-1 {
+	float: left;
+	width: 685px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+}
+#L31 #pagestructure #position1 {
+	float: left;
+	width: 700px;
+}
+#L31 #pagestructure #position4 {
+	float: left;
+	width: 200px;
+}
+#L31 #pagestructure  p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+#L31 #pagestructure #position1  h1 {
+	font-family: "Trebuchet MS", arial, sans-serif;
+	font-size: 21px;
+	color: #006633;
+	margin: 0px;
+	padding: 0px;
+}
+#L31 #pagestructure #position1 #position1-1 #position1-count-2 {
+	float: left;
+	width: 685px;
+	margin-left: 15px;
+}
+#L31 #pagestructure #position4 #position4-1 #position4-count-1 .micromenu ul {
+	margin-left: 0px;
+	padding-left: 0px;
+	list-style-type: none;
+}
+#L31 #pagestructure #position4 #position4-1 #position4-count-1 .micromenu li {
+	display: block;
+	height: 30px;
+	width: 200px;
+	background-image: url(images/gradient_background.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#L31 #pagestructure #position4 #position4-1 #position4-count-1 .micromenu a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+	padding-left: 15px;
+	padding-top: 5px;
+	height: 20px;
+	width: 185px;
+	display: block;
+}
+#L4 #pagestructure p a {
+	color: #333333;
+}
+#L31 #pagestructure #position1 #position1-1 #position1-count-3 .contentpos .searchresults .directoryentry .row .columncount1 .entry {
+	float: left;
+	width: 200px;
+}
+#L31 #pagestructure #position1 #position1-1 #position1-count-3 .contentpos .searchresults .directoryentry .row .columncount1 .entry .directoryContentRight img {
+	width: 200px;
+}
+#L31 #pagestructure #position1 #position1-1 #position1-count-3 .contentpos .searchresults .directoryentry {
+	margin: 10px;
+	float: left;
+	width: 200px;
+}
+#L31 #pagestructure #position1 #position1-1 #position1-count-3 .contentpos .searchresults .directoryentry .row .columncount1 {
+	float: left;
+	width: 200px;
+}
+#L31 #pagestructure #position1 #position1-1 #position1-count-3 .contentpos .searchresults .directoryentry .row .columncount1 .entry .directoryContentRight a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	display: block;
+	float: left;
+	width: 192px;
+	padding: 4px;
+	height: 10px;
+	background-color: #F0F0F0;
+	color: #333333;
+}
+#L31 #pagestructure #position2 {
+	float: left;
+	width: 700px;
+}
+#L31 #pagestructure #position2 #position2-1 {
+	float: left;
+	width: 700px;
+}
+#L31 #pagestructure #position2 #position2-1 #position2-count-1 h1 {
+	font-family: "Trebuchet MS", arial, sans-serif;
+	font-size: 21px;
+	color: #666666;
+}
+#L31 #pagestructure #position1 #position1-1 #position1-count-2 #page2 .pagecontent .contentpos .embed #libertas_form_131 {
+	padding: 15px;
+	float: left;
+	width: 600px;
+	border: 1px solid #CCCCCC;
+}
+#L31 #pagestructure #position1 #position1-1 #position1-count-2 #page2 .pagecontent .contentpos .embed #libertas_form_131 .table .row .columncount1 .row .cell label {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #999999;
+	width: 100px;
+	float: left;
+	padding: 3px;
+}
+#L31 #pagestructure #position1 #position1-1 #position1-count-2 #page2 .pagecontent .contentpos .embed #libertas_form_131 .table .row .columncount1 .row .cell input {
+	font-size: 11px;
+	width: 300px;
+}
+#L31 #pagestructure #position1 #position1-1 #position1-count-2 #page2 .pagecontent .contentpos .embed #libertas_form_131 .table .row .columncount1 .row {
+	margin-top: 2px;
+	margin-bottom: 5px;
+}
+#L31 #pagestructure #position1 #position1-1 #position1-count-2 #page2 .pagecontent .contentpos .embed #libertas_form_131 .table .row .columncount1 .row .cell textarea {
+	width: 300px;
+	font-size: 11px;
+}
+#L31 #pagestructure #position1 #position1-1 #position1-count-2 #page2 .pagecontent .contentpos .embed #libertas_form_131 .table .required {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #996666;
+}
+#L31 #pagestructure #position1 #position1-1 #position1-count-2 #page2 .pagecontent .contentpos .embed form  h1 {
+	display: none;
+}

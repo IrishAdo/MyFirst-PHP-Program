@@ -1,0 +1,7 @@
+<locale language="English" codex="EN" file="forum_general.xml">
+	<!-- Forum -->		
+	<localisation code="FORUM_TITLE"><![CDATA[Forum title]]></localisation>  
+	<localisation code="FORUM_DESCRIPTION"><![CDATA[Forum description]]></localisation>  
+	<localisation code="FORUM_REMOVE_CONFIRMATION_LABEL"><![CDATA[You have chosen to remove this forum from the system.<br/> By selecting yes the forum and its results will be removed permanently]]></localisation>  
+</locale>
+	

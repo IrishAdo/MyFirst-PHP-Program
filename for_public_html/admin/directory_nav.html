@@ -1,0 +1,197 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="/libertas_images/themes/site_administration/style.css" />
+	</head>
+	<body topmargin="0" leftmargin="0" marginheight="0" marginwidth="0">
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="height:100%">
+			<tr class="formbackground">
+				<td class="formbackground"><table width="100%" cellpadding="3" cellspacing="1" border="0" style="height:100%">
+					<tr class="formcells">
+						<td width="100%" height="20" class="formheader"><b>Directory Structure</b></td>
+					</tr>
+					<tr class="formcells">
+						<td class="formcells" valign="top"><span height="100%" id="directory_entries"></span></td>
+					</tr>
+				</table></td>
+			</tr>
+		</table>
+		<script>
+				indent			= Array();
+ 				toggle		 	= Array();
+ 				toggle[-1] 		= Array(-1,true);
+ 				counter			= Array();
+ 				counter[0]=1;
+				directory_list		= parent.directory_list;
+				var count = Array();
+				count=0;
+				prev=-2;
+				for (index=0;index < directory_list.length;index++){
+					toggle[index]	= Array(directory_list[index][0],false);
+				}
+
+				
+				
+				function confirm_deletion(loc){
+					if (confirm("Are your Sure?")){
+						window.location=loc;
+					}
+				}
+				function edit(loc){
+					for(index=0;index < directory_list.length;index++){
+						if (directory_list[index][0]==loc){
+							found					= index;
+						}
+					}
+					d 								= parent.document.layout_form;
+
+					
+					d.directory_identifier.value	= directory_list[found][0];
+					d.directory_name.value			= directory_list[found][2];
+					d.directory_can_upload.options[directory_list[found][5]].selected=true;
+					d.directory_can_spider.options[directory_list[found][6]].selected=true;
+					path_str						= get_path(loc);
+					d.directory_path.value 			= path_str;
+					if (loc!=-1){
+						if (directory_list[found][3]==1){
+							parent.document.LAYOUT_REMOVE_DIRECTORY.style.visibility='hidden';
+						}else{
+							parent.document.LAYOUT_REMOVE_DIRECTORY.style.visibility='visible';
+						}
+					}else{
+						parent.document.LAYOUT_REMOVE_DIRECTORY.style.visibility='hidden';
+					}
+					build_location_combo(-1,1,1,loc);
+					
+					d.directory_name.disabled		= true;
+					d.directory_parent.disabled		= true;
+					
+					
+				}
+		
+				function link_toggle(linkid){
+					for (index=0,len=directory_list.length;index < len;index++){
+						if (linkid==directory_list[index][0]){
+							toggle[index][1] = !toggle[index][1];
+						}
+					}
+					draw_menu();
+				}
+		
+				function draw_menu(){
+					//directory_list = ;
+					level = 0;
+					prev_level = 0;
+					depth =1;
+					for (index=0;index < directory_list.length;index++){
+						if (directory_list[index][4]>depth){
+							depth=directory_list[index][4];
+						}
+					}
+					output ='<table width="100%" border="0" cellpadding="0" cellspacing="0">\n';
+					if (!toggle[-1][1]){
+						output +='<tr>\n<td width="10"><a class="layout_menu_folder" href="javascript:link_toggle(-1);"><img src="/libertas_images/themes/site_administration/plus.gif" border="0"/></a></td>\n<td width="100%" colspan="'+(depth+1)+'">&nbsp;Root</td>\n</tr>\n';
+					}else{
+						output +='<tr>\n<td width="10"><a class="layout_menu_folder" href="javascript:link_toggle(-1);"><img src="/libertas_images/themes/site_administration/minus.gif" border="0"/></a></td>\n<td width="100%" colspan="'+(depth+1)+'">&nbsp;Root</td>\n</tr>\n';
+						output += display_children(1,-1);
+					}
+					output+="</table>\n";
+					document.all.directory_entries.innerHTML=output;
+				}
+				
+				function display_children(this_deep,parent_id){
+					var output ="";
+					for (var index=0;index < directory_list.length;index++){
+						if (directory_list[index][1]==parent_id){
+							textinput = "";
+							children=false;
+							textinput += "<td><img src='/libertas_images/themes/site_administration/folder_junction.gif' border='0'/></td>";
+							for (var spacer_index=0;spacer_index < this_deep;spacer_index++){
+								if (spacer_index < (directory_list[index][4]-1)){
+									textinput += "<td><img src='/libertas_images/themes/site_administration/folder_junction.gif' border='0'/></td>";
+	
+								} else {
+									entry_label=directory_list[index][2];
+									
+									if (entry_label==""){
+										entry_label += "undefined";
+									}
+									if (directory_list[index][3]>0){
+										if (!toggle[index][1]){
+											textinput +='<td width="10"><a class="layout_menu_folder" href="javascript:link_toggle('+directory_list[index][0]+');"><img src="/libertas_images/themes/site_administration/plus.gif" border="0"/></a></td>';
+											textinput += "<td colspan='"+((depth+1)-this_deep)+"' width='100%'>&nbsp;<a class='layout_menu_folder' href='javascript:edit("+directory_list[index][0]+");'>"+entry_label+"</a></td>";
+										}else{
+											textinput += '<td width="10"><a class=layout_menu_folder href="javascript:link_toggle('+directory_list[index][0]+');"><img src="/libertas_images/themes/site_administration/minus.gif" border="0"/></a></td>';
+											textinput += "<td colspan='"+((depth+1)-this_deep)+"' width='100%'>&nbsp;<a class='layout_menu_folder' href='javascript:edit("+directory_list[index][0]+");'>"+entry_label+"</a></td>";
+											
+											children=true;
+										}
+									}else{
+										textinput += "<td width='10'><img src='/libertas_images/themes/site_administration/folder_right.gif' border='0'/></td>";
+										textinput += "<td colspan='"+((depth+1)-this_deep)+"' width='100%'>&nbsp;<a class='layout_menu_folder' href='javascript:edit("+directory_list[index][0]+");'>"+entry_label+"</a></td>";
+									}
+								}
+							}
+							output += "<tr>"+textinput+"</tr>";
+							if (children){
+								output += display_children(this_deep+1,directory_list[index][0]);
+							}
+						}
+					}
+					return output;
+				}
+				
+				function build_location_combo(parent_id,first,depth,dir_id,parent_index) {
+					d 	= parent.document.layout_form;
+					if (1==first){
+						d.directory_parent.options.length=1;
+					}
+					if ((parent_index+''=='undefined')||(parent_index+''=='')){
+						parent_index=0;
+					}
+					for (var index=0;index < directory_list.length;index++){
+						if (directory_list[index][1]==parent_id){
+							textinput = "";
+							if (directory_list[index][0]!=dir_id){
+								for (var spacer_index=0;spacer_index < depth;spacer_index++){
+									if (spacer_index < (depth-1)){
+										textinput += "   ";
+									} else {
+										if (directory_list[index][3]>0){
+											textinput += " - ";
+										}else{
+											textinput += "   ";
+										}
+									}
+								}
+								textinput += directory_list[index][2];
+								d.directory_parent.options[d.directory_parent.options.length] = new Option(textinput,directory_list[index][0]);
+								build_location_combo(directory_list[index][0],0,depth+1,dir_id,d.directory_parent.options.length-1);
+							} else {
+								d.directory_parent.options[parent_index].selected=true;
+							}
+						}
+					}
+				}
+				
+				function get_path(loc){
+					var directory_structure="";
+					var sub_directory_structure="";
+					for (var index=0;index < directory_list.length;index++){
+						if (directory_list[index][0]==loc){
+							sub_directory_structure = "/"+directory_list[index][2];
+							directory_structure = get_path(directory_list[index][1])+sub_directory_structure;
+						}
+					}
+					return directory_structure;
+				}
+				
+				draw_menu();
+				build_location_combo(-1,1,1,-1,-1);
+				d	= parent.document.layout_form;
+				d.directory_name.enabled	=false;
+				parent.document.LAYOUT_SAVE_DIRECTORY.style.visibility='visible';
+				parent.document.LAYOUT_REMOVE_DIRECTORY.style.visibility='hidden';
+						
+			</script>
+	</body>
+</html>

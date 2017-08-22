@@ -1,0 +1,10 @@
+<locale language="English" codex="EN" files="management.xml">
+<!-- Admin Menu Groupings-->	
+	<localisation code="LOCALE_MANAGEMENT_GROUP_CONTENT"><![CDATA[Content]]></localisation> 
+	<localisation code="LOCALE_MANAGEMENT_GROUP_SECURITY"><![CDATA[Security]]></localisation> 
+	<localisation code="LOCALE_MANAGEMENT_GROUP_REPORTS"><![CDATA[Reports]]></localisation> 
+	<localisation code="LOCALE_MANAGEMENT_GROUP_EXTENSION"><![CDATA[Extensions]]></localisation> 
+	<localisation code="LOCALE_MANAGEMENT_GROUP_PREFS"><![CDATA[Preferences]]></localisation> 
+
+</locale>
+	

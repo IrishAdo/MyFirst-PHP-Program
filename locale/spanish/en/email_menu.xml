@@ -1,0 +1,7 @@
+<locale language="English" codex="EN" file="email_module.xml">
+
+<!-- Management Labels-->
+	<localisation code="LOCALE_EMIAL_PROBLEM"><![CDATA[Sorry there seems to have been a problem sending an email to you. Please contact us directly to process your request.]]></localisation>
+
+</locale>
+	

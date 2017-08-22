@@ -1,0 +1,12 @@
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+#	Robots.txt file for informing search engines what directories can NOT be searched
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Last modified [2006/01/12 14:55:05] (date format YYYY/MM/DD HH:MM:SS if you are intrested)
+User-agent: *
+Disallow:/-/
+Disallow:/home/
+Disallow:/uploads/
+
+
+User-agent: Googlebot-Image
+Disallow:

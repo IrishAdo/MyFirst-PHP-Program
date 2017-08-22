@@ -1,0 +1,44 @@
+<locale language="English" codex="EN" file="contact_general.xml">
+
+<!-- Contact Management-->	
+	<localisation code="LOCALE_CONTACT_US"><![CDATA[Contact Us Form]]></localisation>
+	<localisation code="LOCALE_DEFAULT_CONTACT_US"><![CDATA[Contact Us Form]]></localisation>
+	<localisation code="LOCALE_CONTACT_COMPANY"><![CDATA[Company]]></localisation>  
+	<localisation code="LOCALE_CONTACT_JOB_TITLE"><![CDATA[Job title]]></localisation>  
+	<localisation code="LOCALE_CONTACT_FIRST_NAME"><![CDATA[First name]]></localisation>  
+	<localisation code="LOCALE_CONTACT_SURNAME"><![CDATA[Surname]]></localisation>  
+	<localisation code="LOCALE_CONTACT_INITIALS"><![CDATA[Initials]]></localisation>  
+	<localisation code="LOCALE_CONTACT_EMAIL_ADDRESS"><![CDATA[Email address]]></localisation>
+	<localisation code="LOCALE_CONTACT_CONFIRM_EMAIL_ADDRESS"><![CDATA[Confirm email address]]></localisation>  
+	<localisation code="LOCALE_CONTACT_PHONE"><![CDATA[Phone]]></localisation>  
+	<localisation code="LOCALE_CONTACT_FAX"><![CDATA[Fax]]></localisation>  
+	<localisation code="LOCALE_CONTACT_MOBILE"><![CDATA[Mobile]]></localisation>  
+	<localisation code="LOCALE_ADDRESS1"><![CDATA[Address]]></localisation>  
+	<localisation code="LOCALE_ADDRESS2"><![CDATA[&nbsp;]]></localisation>  
+	<localisation code="LOCALE_ADDRESS3"><![CDATA[&nbsp;]]></localisation>  
+	<localisation code="LOCALE_ADDRESS_CITY"><![CDATA[Town / city]]></localisation>  
+	<localisation code="LOCALE_ADDRESS_COUNTY"><![CDATA[County]]></localisation>  
+	<localisation code="LOCALE_ADDRESS_COUNTRY"><![CDATA[Country]]></localisation>  
+	<localisation code="LOCALE_ADDRESS_POSTCODE"><![CDATA[Postcode]]></localisation>  
+	<localisation code="USER_PHONE"><![CDATA[Phone]]></localisation>
+	<localisation code="USER_COMPANY"><![CDATA[Company]]></localisation>
+	<localisation code="LOCALE_FORM_SUPPLY_VALID_COMPANY"><![CDATA[Please supply a valid company name]]></localisation>
+	<localisation code="LOCALE_FORM_SUPPLY_VALID_JOB"><![CDATA[Please supply a valid Job title]]></localisation>
+
+	<localisation code="LOCALE_FORM_SUPPLY_VALID_FIRSTNAME"><![CDATA[You did not supply a first name]]></localisation>
+	<localisation code="LOCALE_FORM_SUPPLY_VALID_LASTNAME"><![CDATA[You did not supply a surname]]></localisation>
+	<localisation code="LOCALE_FORM_SUPPLY_VALID_EMAIL"><![CDATA[You did not supply a valid email address]]></localisation>
+	<localisation code="LOCALE_USERS_SUPPLY_EMAIL"><![CDATA[You did not supply an email address, try again]]></localisation>
+	<localisation code="LOCALE_USERS_SUPPLED_INVALID_EMAIL"><![CDATA[The email address you supplied does not exist in our records.<br />Please try again or contact us directly.<br />Thank you]]></localisation>
+	<localisation code="LOCALE_FORM_SUPPLY_VALID_TELEPHONE"><![CDATA[You must supply a valid Phone Number]]></localisation>
+	<localisation code="LOCALE_FORM_SUPPLY_VALID_FAX"><![CDATA[You must supply a valid Fax Number]]></localisation>
+	<localisation code="LOCALE_FORM_SUPPLY_VALID_ADDRESS"><![CDATA[You must supply at least one line of an address]]></localisation>
+	<localisation code="LOCALE_FORM_SUPPLY_VALID_CITY"><![CDATA[You must supply a valid city]]></localisation>
+	<localisation code="LOCALE_FORM_SUPPLY_VALID_COUNTY"><![CDATA[You must supply a valid county/state]]></localisation>
+	<localisation code="LOCALE_FORM_SUPPLY_VALID_COUNTRY"><![CDATA[You must supply a valid country]]></localisation>
+	<localisation code="LOCALE_FORM_SUPPLY_VALID_POSTCODE"><![CDATA[You must supply a valid postcode]]></localisation>
+	<localisation code="LOCALE_FORM_SUPPLY_VALID_INITIALS"><![CDATA[Please supply your initials]]></localisation>
+
+	
+</locale>
+	

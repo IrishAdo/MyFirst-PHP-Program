@@ -1,0 +1,18 @@
+.strapline, .poweredby {
+	font-weight: normal;
+	text-align: center;
+}
+.entrylocation{
+	font-weight: bold;
+
+}
+body{text-align:center;
+font-family: verdana, arial, sans-serif;
+}
+div#position2{
+	width:700px;
+	text-align:justify;
+	display:inline;
+}
+div#position2 div {margin:3px;}
+div#position2 div div {margin:0px;}

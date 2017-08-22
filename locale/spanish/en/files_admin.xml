@@ -1,0 +1,37 @@
+<locale language="English" codex="EN" file="files_admin.xml">
+
+<!-- Module Labels-->
+	<localisation code="LOCALE_FILE_DOWNLOAD_TIMES"><![CDATA[56k Connection]]></localisation>
+	<localisation code="FILE_DIRECTORY"><![CDATA[Where should this file be located?]]></localisation> 
+	<localisation code="FILE_MEASURE_BYTES"><![CDATA[ bytes]]></localisation> 
+	<localisation code="FILE_SIZE"><![CDATA[File Size]]></localisation> 
+	<localisation code="KEEP_FILE"><![CDATA[Keep this file.]]></localisation> 
+	<localisation code="REPLACE_FILE"><![CDATA[Replace this file.]]></localisation> 
+	<localisation code="VIEW_FILE"><![CDATA[View this file.]]></localisation> 
+	<localisation code="FILE_EDIT_REMOVE"><![CDATA[Edit/Remove files]]></localisation> 
+	<localisation code="FILE"><![CDATA[File]]></localisation> 
+	<localisation code="FILE_NAME_AND_LOCATION"><![CDATA[File name]]></localisation>
+	<localisation code="FILE_TYPE"><![CDATA[File type]]></localisation>
+	<localisation code="ASSOCIATED_TO_NO_OF_PAGES"><![CDATA[No of pages this file can be downloaded from]]></localisation>
+	<localisation code="ASSOCIATED_TO_NO_OF_PAGES"><![CDATA[No. of pages linked to this file]]></localisation>
+	<localisation code="LOCALE_PAGES_TITLE_LABEL"><![CDATA[Filter displayed Pages]]></localisation>
+	<localisation code="LOCALE_FILES_FILTER_ALL"><![CDATA[All file types]]></localisation>
+	<localisation code="LOCALE_FILE_REMOVE_CONFIRMATION_LABEL"><![CDATA[Are you sure you wish to delete this file permanently from the system?]]></localisation>
+	<localisation code="LOCALE_FILE_EDIT_LABEL"><![CDATA[Edit an Existing File]]></localisation>
+	<localisation code="ENTRY_FILES_ASSOCIATED"><![CDATA[Associated Files]]></localisation> 
+	<localisation code="ENTRY_FILES_ASSOCIATE"><![CDATA[Associate Files with this document]]></localisation> 
+	<localisation code="ENTRY_DATE_CREATION"><![CDATA[Date of initial upload]]></localisation>
+	<localisation code="LOCALE_NO_FILE_ASSOCIATIONS"><![CDATA[No File Associations.]]></localisation>
+	<localisation code="LOCALE_FILE_LABEL"><![CDATA[Label]]></localisation>
+	<localisation code="LOCALE_FILE_DESCRIPTION"><![CDATA[Description]]></localisation>
+	<localisation code="LOCALE_FILE_SIZE"><![CDATA[Size (bytes)]]></localisation>
+	<localisation code="LOCALE_FILE_ASSOCIATION"><![CDATA[Links]]></localisation>
+	<localisation code="LOCALE_FILE_DOWNLOADS"><![CDATA[Downloads]]></localisation>
+	<localisation code="YES_REPLACE"><![CDATA[Replace this file]]></localisation>
+	<localisation code="LOCALE_SORRY_FILE_MSG"><![CDATA[
+	<p>The system administrator has not supplied a directory to upload to.</p>
+	<p>Please contact your System Administrator about creating a upload directory.</p>
+	]]></localisation>
+
+</locale>
+	

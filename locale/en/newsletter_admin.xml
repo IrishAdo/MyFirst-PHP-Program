@@ -1,0 +1,33 @@
+<locale language="English" codex="EN" files="newsletter_admin.xml">
+
+	<localisation code="LOCALE_SEND_AVAILABLE"><![CDATA[Make available for reposting]]></localisation>
+	<localisation code="LOCALE_SEND_TO_AUTHOR"><![CDATA[Make available to Author]]></localisation>
+	<localisation code="LOCALE_ISSUE_STATUS_TYPE_2"><![CDATA[This issue has been sent]]></localisation>
+	<localisation code="LOCALE_ISSUE_STATUS_TYPE_1"><![CDATA[Ready to Send]]></localisation>
+	<localisation code="LOCALE_ISSUE_STATUS_TYPE_0"><![CDATA[Draft]]></localisation>
+	<localisation code="LOCALE_NEWSLETTER_STATUS_TYPE_2"><![CDATA[Newsletter validated]]></localisation>
+	<localisation code="LOCALE_NEWSLETTER_STATUS_TYPE_1"><![CDATA[Ready for Approval]]></localisation>
+	<localisation code="LOCALE_NEWSLETTER_STATUS_TYPE_0"><![CDATA[Draft]]></localisation>
+	<localisation code="LOCALE_NEWSLETTER_PREVIEW"><![CDATA[Preview of Newsletter]]></localisation>
+	<localisation code="LOCALE_MANAGE_ISSUES"><![CDATA[Manage Issues]]></localisation>
+	<localisation code="LOCALE_FROM_LABEL"><![CDATA[with this label]]></localisation>
+	<localisation code="LOCALE_FROM_EMAIL"><![CDATA[Sent from this email address]]></localisation>
+	<localisation code="LOCALE_NEWSLETTER_DESCRIPTION"><![CDATA[<p>Description of the newsletter</p><hr>]]></localisation>
+	<localisation code="LOCALE_ISSUE_ADD"><![CDATA[Add new Issue]]></localisation>
+	<localisation code="LOCALE_ISSUE_EDIT"><![CDATA[Edit this Issue]]></localisation>
+	<localisation code="ENTRY_SUBJECT"><![CDATA[Subject]]></localisation>
+	<localisation code="ENTRY_HTML_DESCRIPTION"><![CDATA[HTML Version]]></localisation>
+	<localisation code="ENTRY_PLAIN_DESCRIPTION"><![CDATA[Plain Version]]></localisation>
+	<localisation code="LOCALE_ISSUE_REMOVED"><![CDATA[Removal of issue confirmation]]></localisation>
+	<localisation code="LOCALE_ISSUE_REMOVED_MSG"><![CDATA[The issue has been removed from the system]]></localisation>
+	<localisation code="LOCALE_ISSUE_REJECTED_MSG"><![CDATA[The Issue has now been sent to the author for work.]]></localisation>
+	<localisation code="LOCALE_ISSUE_REJECTED"><![CDATA[Rejection of Issue Confirmation]]></localisation>
+	<localisation code="LOCALE_TEST_NEWSLETTER_ISSUE_TITLE"><![CDATA[Test Sent.]]></localisation>
+	<localisation code="LOCALE_TEST_NEWSLETTER_SENT"><![CDATA[The test email has been sent to your email address. Depending on your email system this could take up to ten minutes. <br> If you have not received the two emails you might want to confirm your email address in the system.]]></localisation>
+	<localisation code="LOCALE_SEND_TO_PAGE"><![CDATA[Send to site]]></localisation>
+	
+	<localisation code="SEND_EMAIL_TO_SUBSCRIBERS"><![CDATA[Email this issue to subscribers]]></localisation>
+	<localisation code="RECIEVE_TEST"><![CDATA[Send test email]]></localisation>
+
+</locale>
+	

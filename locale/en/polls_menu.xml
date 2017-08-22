@@ -1,0 +1,9 @@
+<locale language="English" codex="EN" files="polls_menu.xml">
+
+<!-- Management Labels-->
+	<localisation code="MANAGEMENT_POLL"><![CDATA[Poll Management]]></localisation> 
+
+<!-- Manage Labels-->
+	<localisation code="MANAGE_POLL"><![CDATA[Manage Poll]]></localisation> 
+</locale>
+	

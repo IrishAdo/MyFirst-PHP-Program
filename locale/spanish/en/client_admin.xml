@@ -1,0 +1,26 @@
+<locale language="English" codex="EN" file="contact_admin.xml">
+	<localisation code="LOCALE_INDEX_FOLLOW"><![CDATA[Index page and follow links]]></localisation>
+	<localisation code="LOCALE_INDEX_NOFOLLOW"><![CDATA[Index page and do not follow links]]></localisation>
+	<localisation code="LOCALE_NOINDEX_FOLLOW"><![CDATA[Do not index page but follow links]]></localisation>
+	<localisation code="LOCALE_NOINDEX_NOFOLLOW"><![CDATA[Do not index page and do not follow links]]></localisation>
+	<localisation code="LOCALE_PARK_DOMAINS"><![CDATA[Parked domains]]></localisation>
+	<localisation code="LOCALE_CLIENT_DETAILS"><![CDATA[Client Details]]></localisation>
+	<localisation code="LOCALE_DOMAIN"><![CDATA[Domain Name]]></localisation>
+	<localisation code="LOCALE_ADD_NEW_DOMAIN_MSG"><![CDATA[Add a new domain to your list of domains]]></localisation>
+
+	<localisation code="LOCALE_KEEP"><![CDATA[Use the defined Logo]]></localisation>
+	<localisation code="LOCALE_TEXT"><![CDATA[Use Company Name]]></localisation>
+	<localisation code="LOCALE_REPLACE"><![CDATA[Replace Logo]]></localisation>
+	<localisation code="LOCALE_LOAD_LOGO"><![CDATA[Choose your logo formatting option]]></localisation>
+	<localisation code="LOCALE_NONE"><![CDATA[No Logo]]></localisation>
+	<localisation code="LOCALE_UPLOAD_LOGO"><![CDATA[Upload your logo]]></localisation>
+	<localisation code="LOCALE_STRAPLINE"><![CDATA[Company Strapline]]></localisation>
+	<localisation code="LOCALE_ALIGN_LEFT"><![CDATA[Left]]></localisation>
+	<localisation code="LOCALE_ALIGN_MIDDLE"><![CDATA[Center]]></localisation>
+	<localisation code="LOCALE_ALIGN_RIGHT"><![CDATA[Right]]></localisation>
+	<localisation code="LOCALE_LOGO_ALIGNMENT"><![CDATA[How do you wish to align your company logo]]></localisation>
+	<localisation code="LOCALE_TEXT_AND_LOGO"><![CDATA[Company Name and Logo]]></localisation>
+	<localisation code="LOCALE_ROBOT_SETTING"><![CDATA[Search Engine, Robot Settings]]></localisation>
+	<localisation code="LOCALE_REVISIT_SETTING"><![CDATA[Tell the search engine how often you update your site]]></localisation>
+</locale>
+	

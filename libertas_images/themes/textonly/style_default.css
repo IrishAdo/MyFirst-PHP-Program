@@ -1,0 +1,86 @@
+body{
+	color:#000000;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	background-color: #FFFFFF;
+}
+a,a:visited,a:active,a:link{
+	color:#003366;
+	font-weight:bold;
+	padding-left:5px;
+	padding-right:5px;
+	background-color: #FFFFFF;
+}
+a:hover{
+	color:#000066;
+	font-weight:bold;
+	padding-left:5px;
+	padding-right:5px;
+}
+#webobject{border-bottom:2px solid #000000;margin:10px;padding:10px;}
+.width100percen{width:100%}
+div,tr,table{
+ border:3px solid red;
+}
+th{font-weight:bold;border:1px solid white}
+td{
+	border:2px solid white;
+	display: inline-block;
+	width:100%;
+	}
+label, .label{
+	font-weight:bold;
+	color:#000000;
+}
+.TableHeader,{
+	color:#ffffFF;
+	font-weight:bold;
+}
+.entrytitle{
+	color:#000000;
+	font-weight:bold;
+}
+.menu{
+	padding-left:10px;
+	margin-left:10px;
+	list-style:disc;
+}
+#row{
+	display: table-row ;
+	vertical-align:top;
+	width:100%;
+}
+#cell{
+	display: inline ;
+	vertical-align:top;
+}
+#cell33{
+	display: inline ;
+	width:33%;
+	vertical-align:top;
+}
+#directory{
+	margin-bottom:10px;
+}
+input, textarea { 
+	font-family:courier;
+
+}
+hr{
+	width:99%;
+	text-align:center;
+	border:1px solid #000000;
+}
+.button, A.button:link{
+	border:1px solid #000000;
+	background:#000000;
+	color:#000000;
+	font-weight:normal;
+	padding:5px;
+	text-align:center;
+	margin:5px;
+	font-family:arial bold;
+	text-decoration:none;
+	height:40px;
+	font-size:1em;
+	vertical-align:bottom;
+}

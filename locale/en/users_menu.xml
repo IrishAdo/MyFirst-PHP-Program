@@ -1,0 +1,9 @@
+<locale language="English" codex="EN" files="users_menu.xml">
+
+<!-- Management Labels-->
+	<localisation code="MANAGEMENT_USER"><![CDATA[User Management]]></localisation> 
+
+<!-- Manage Labels-->
+	<localisation code="MANAGE_USER"><![CDATA[Manage Users]]></localisation> 
+</locale>
+	

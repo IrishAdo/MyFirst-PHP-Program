@@ -1,0 +1,19 @@
+<locale language="English" codex="EN" files="user_access_admin.xml">
+
+<!-- Management Labels-->
+	<localisation code="MANAGEMENT_LOG"><![CDATA[Site Log Management]]></localisation> 
+
+<!-- Manage Labels-->
+	<localisation code="LOCALE_STATS_TOTAL"><![CDATA[Totals]]></localisation>
+	<localisation code="LOCALE_STAT_NO_RESULTS"><![CDATA[Sorry there were no log files to display]]></localisation>
+	<localisation code="LOCALE_STATS_DISPLAYING_LANGUAGES"><![CDATA[Display list of browser languages used this month]]></localisation>
+	<localisation code="LOCALE_STATS_DISPLAYING_MONTH"><![CDATA[Displaying specified month]]></localisation>
+	<localisation code="LOCALE_STATS_SELECT_MONTH"><![CDATA[Currently displaying month]]></localisation>
+	<localisation code="LOCALE_STATS_SELECT_TIME_FRAME"><![CDATA[Select time frame for stats]]></localisation>
+	<localisation code="LOCALE_STAT_TOTAL"><![CDATA[Total]]></localisation>
+	<localisation code="LOCALE_STATS_YEAR_BASED"><![CDATA[Web Site traffic for this year]]></localisation>
+	<localisation code="LOCALE_STATS_PAGE_HITS"><![CDATA[Page hits]]></localisation>
+	<localisation code="LOCALE_STATS_UNIQUE_HITS"><![CDATA[Unique hits]]></localisation>
+	<localisation code="LOCALE_STATS_VISITORS"><![CDATA[Visitors]]></localisation>
+</locale>
+	

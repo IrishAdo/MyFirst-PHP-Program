@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!--
+/*
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+- Version $Revision: 1.1 $
+- Modified $Date: 2005/02/28 17:16:02 $
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+*/
+-->
+<xsl:stylesheet
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  version="1.0"> 
+
+<xsl:output method="xml" indent="yes" 
+    doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"
+    doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN" />
+	  
+<xsl:template name="display_layout_structure">
+<html ><xsl:attribute name="lang"><xsl:value-of select="//locale/@codex"/></xsl:attribute>
+<head>
+<xsl:call-template name="display_header_data"/>
+</head>
+<body><xsl:attribute name='id'>L<xsl:choose>
+	<xsl:when test="//setting[@name='display_layout'] = '1111'">
+		<xsl:choose>
+			<xsl:when test="not(boolean(//container[@pos='3']))">121</xsl:when>
+			<xsl:otherwise>1111</xsl:otherwise>
+		</xsl:choose>
+	</xsl:when>
+	<xsl:otherwise><xsl:value-of select="//setting[@name='display_layout']"/></xsl:otherwise>
+</xsl:choose></xsl:attribute>
+<xsl:call-template name="display_wai_header_links"/>
+<div id="pagestructure">
+<div id='header' class='smallcell'><xsl:call-template name="show_containers"><xsl:with-param name="display_position">header</xsl:with-param></xsl:call-template></div>
+<xsl:if test="boolean(//container[@pos='1'])">
+<div id='position1' class='smallcell'><xsl:call-template name="show_containers"><xsl:with-param name="display_position">1</xsl:with-param></xsl:call-template></div>
+</xsl:if>
+<xsl:if test="boolean(//container[@pos='2'])">
+<div id='position2' class='smallcell'><xsl:call-template name="show_containers"><xsl:with-param name="display_position">2</xsl:with-param></xsl:call-template></div>
+</xsl:if>
+<xsl:if test="boolean(//container[@pos='3'])">
+<div id='position3' class='smallcell'><xsl:call-template name="show_containers"><xsl:with-param name="display_position">3</xsl:with-param></xsl:call-template></div>
+</xsl:if>
+<xsl:if test="boolean(//container[@pos='4'])">
+<div id='position4' class='smallcell'><xsl:call-template name="show_containers"><xsl:with-param name="display_position">4</xsl:with-param></xsl:call-template></div>
+</xsl:if>
+<div id='footer' class='smallcell'><xsl:call-template name="show_containers"><xsl:with-param name="display_position">footer</xsl:with-param></xsl:call-template></div>
+<xsl:call-template name="display_power_by"></xsl:call-template>
+<div id="spare1"><span><xsl:comment> spare div </xsl:comment></span></div>
+<div id="spare2"><span><xsl:comment> spare div </xsl:comment></span></div>
+<div id="spare3"><span><xsl:comment> spare div </xsl:comment></span></div>
+<div id="spare4"><span><xsl:comment> spare div </xsl:comment></span></div>
+<div id="spare5"><span><xsl:comment> spare div </xsl:comment></span></div>
+<div id="spare6"><span><xsl:comment> spare div </xsl:comment></span></div>
+<div id="spare7"><span><xsl:comment> spare div </xsl:comment></span></div>
+<div id="spare8"><span><xsl:comment> spare div </xsl:comment></span></div>
+<div id="spare9"><span><xsl:comment> spare div </xsl:comment></span></div>
+<div id="spare10"><span><xsl:comment> spare div </xsl:comment></span></div>
+</div>
+<div id="companyname"><h1><a href="index.php"><xsl:attribute name="title"><xsl:value-of select="//module[@name='client' and @display='reference']/client/module[@name='contact' and @display='table']/table[@label='Contact Details']/row[@label='Company']"/></xsl:attribute><span class="icon"><span class="text"><xsl:value-of select="//module[@name='client' and @display='reference']/client/module[@name='contact' and @display='table']/table[@label='Contact Details']/row[@label='Company']"/></span></span></a></h1></div>
+</body>
+</html>
+
+</xsl:template>
+
+</xsl:stylesheet>

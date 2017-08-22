@@ -1,0 +1,13 @@
+<locale language="English" codex="EN" files="page_menu.xml">
+
+<!-- Management Labels-->
+	<localisation code="MANAGEMENT_PAGE"><![CDATA[Page Management]]></localisation> 
+
+<!-- Manage Labels-->
+	<localisation code="MANAGE_PAGE"><![CDATA[Manage Pages]]></localisation> 
+	<localisation code="MANAGE_PAGE_IGNORE_LIST"><![CDATA[Manage Keyword Ignore List]]></localisation>
+	<localisation code="LOCALE_VERSION_ARCHIVE_ACCESS"><![CDATA[Version Warehouse]]></localisation>
+	<localisation code="LOCALE_PAGE_REPORTS"><![CDATA[View Generic Reports]]></localisation>
+
+</locale>
+	

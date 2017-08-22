@@ -1,0 +1,20 @@
+<locale language="English" codex="EN" file="module_files.xml">
+
+<!-- Module Labels-->
+	<localisation code="LOCALE_FILE_DOWNLOAD_TIMES"><![CDATA[56k Connection]]></localisation>
+	<localisation code="FILE_MEASURE_BYTES"><![CDATA[ bytes]]></localisation> 
+	<localisation code="FILE_SIZE"><![CDATA[File Size]]></localisation> 
+	<localisation code="FILE"><![CDATA[File]]></localisation> 
+	<localisation code="FILE_NAME_AND_LOCATION"><![CDATA[File name]]></localisation>
+	<localisation code="FILE_TYPE"><![CDATA[File type]]></localisation>
+	<localisation code="ENTRY_FILES_ASSOCIATED"><![CDATA[Associated Files]]></localisation> 
+	<localisation code="LOCALE_FILE_LABEL"><![CDATA[Label]]></localisation>
+	<localisation code="LOCALE_FILE_DESCRIPTION"><![CDATA[Description]]></localisation>
+	<localisation code="LOCALE_FILE_SIZE"><![CDATA[Size (bytes)]]></localisation>
+	<localisation code="LOCALE_SORRY_LOGIN_REQUIRED"><![CDATA[Sorry you must be logged in before downloading this file.]]></localisation>
+	<localisation code="LOCALE_SORRY_NO_FILE"><![CDATA[<h3>Sorry the File you request is currently not available.</h3>
+	<p>Please contact us directly to receive help on accessing this file.</p>
+	]]></localisation>
+
+</locale>
+	

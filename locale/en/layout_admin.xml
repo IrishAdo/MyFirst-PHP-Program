@@ -1,0 +1,41 @@
+<locale language="English" codex="EN" file="layout_admin.xml">
+<!-- System Access Levels -->
+	<localisation code="ENTRY_MENU_LABEL"><![CDATA[What would you like to call this menu item?]]></localisation> 	
+	<localisation code="ENTRY_WHERE_IN_SITE_STRUCTURE"><![CDATA[Where should this appear within your site structure?]]></localisation> 
+	<localisation code="ENTRY_MENU_RANK"><![CDATA[What rank should this appear in your menu?]]></localisation>  
+	<localisation code="ENTRY_WHICH_FOLDER"><![CDATA[In which folder should this be located?]]></localisation> 
+	<localisation code="ENTRY_URL_FILE_NAME"><![CDATA[What is the URL you wish to use for this location]]></localisation>  
+	<localisation code="ENTRY_MENU_ACCESS_RESTRICTIONS"><![CDATA[Select user groups you wish only to be able to view this menu location, leave blank for no restrictions.]]></localisation> 
+	<localisation code="ENTRY_CHOOSE_CHANNEL"><![CDATA[Choose the channel(s) that will be published to this location]]></localisation>  
+	<localisation code="ENTRY_CHOOSE_LOCATION_DISPLAY_FORMAT"><![CDATA[How would you like content published to this location displayed?]]></localisation> 
+	<localisation code="ENTRY_GROUP_MENU_ACCESS"><![CDATA[Menu locations secured to members of this group]]></localisation>  
+	<localisation code="ENTRY_GROUP_ADMIN_PRIVILEGES"><![CDATA[What security privileges do you wish to set for members of this group?]]></localisation>  
+<!-- Channel Statements -->
+	<localisation code="DISPLAY_FORUM_CHANNEL"><![CDATA[Display a forum in this location.]]></localisation> 
+	<localisation code="CHANNEL_DISPLAY_LOGIN"><![CDATA[Display the Login Screen.]]></localisation>  
+	<localisation code="LOCALE_DEFAULT_MENU_MSG"><![CDATA[Locations this page will appear]]></localisation> 
+	<localisation code="LOCALE_BLANK_MENU_MSG"><![CDATA[<li>Please select the Menu selector from the menu to assign menu locations</li>]]></localisation> 
+	<localisation code="ENTRY_MENU_LOCATIONS"><![CDATA[Menu Locations]]></localisation> 
+	<localisation code="LAYOUT_RETRIEVE_PUBLISH_LOCATIONS"><![CDATA[Associate this page in these locations]]></localisation> 
+	<localisation code="CAN_DIRECTORY_UPLOAD"><![CDATA[Does this directory accept uploads]]></localisation> 
+	<localisation code="DIRECTORY_NAME"><![CDATA[What is the directory name]]></localisation>  
+	<localisation code="DIRECTORY_PATH"><![CDATA[Please select the path in which the directory should exist]]></localisation> 
+	<localisation code="ROOT_LOCATION"><![CDATA[Root]]></localisation>  
+	<localisation code="ENTRY_CHOOSE_MENU_LOCATIONS"><![CDATA[Please choose from the available locations were you would like to publish this page.]]></localisation>  
+	<localisation code="CAN_DIRECTORY_SPIDERED"><![CDATA[Can this directory be searched by web spiders like Google]]></localisation>
+	<localisation code="LOCALE_PUBLISHED_LOCATIONS"><![CDATA[Locations this document will be available]]></localisation>
+	<localisation code="LOCALE_NO_MENU_LOCATIONS"><![CDATA[<span class="warning">No menu locations selected</span>]]></localisation>
+	<localisation code="LOCALE_USE_MENU_RESTRICTIONS"><![CDATA[Using the restrictions based on the menu locations]]></localisation>
+	<localisation code="LOCALE_RANK"><![CDATA[Pos]]></localisation>
+	<localisation code="LOCALE_DESTINATION"><![CDATA[Dst]]></localisation>
+	<localisation code="LOCALE_SOURCE"><![CDATA[Src]]></localisation>
+	<localisation code="LOCALE_PAGE_RANKING_FORM"><![CDATA[Define the ranking of pages in this menu location.]]></localisation>
+	<localisation code="LOCALE_MENU_TITLE_DOCUMENT"><![CDATA[Location Title Document]]></localisation>
+	<localisation code="LOCALE_MODIFY_CHANNELS"><![CDATA[Modify Channels]]></localisation>
+	<localisation code="LOCALE_MODIFY_GROUPS"><![CDATA[Modify Group Access]]></localisation>
+	<localisation code="LOCALE_RANK_PAGES"><![CDATA[Modify Page Ranking]]></localisation>
+	<localisation code="LOCALE_MENU_WIZARD"><![CDATA[Menu wizard]]></localisation>
+	<localisation code="LOCALE_CHANNEL_WIZARD"><![CDATA[Choose channel wizard]]></localisation>
+	<localisation code="LOCALE_GROUP_WIZARD"><![CDATA[Choose group wizard]]></localisation>
+</locale>
+	

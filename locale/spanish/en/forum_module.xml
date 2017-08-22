@@ -1,0 +1,13 @@
+<locale language="English" codex="EN" file="forum_module.xml">
+
+<!-- Forum -->		
+	<localisation code="FORUM_TITLE_LABEL"><![CDATA[Forum management]]></localisation>  
+	<localisation code="FORUM_GOES_HERE"><![CDATA[Return to the list of forum]]></localisation>  
+	<localisation code="FORUM_STATUS"><![CDATA[Forum status]]></localisation>  
+	<localisation code="FORUM_TITLE"><![CDATA[Forum title]]></localisation>  
+	<localisation code="FORUM_DESCRIPTION"><![CDATA[Forum description]]></localisation>  
+	<localisation code="FORUM_REMOVE_CONFIRMATION_LABEL"><![CDATA[You have chosen to remove this forum from the system.<br/> By selecting yes the forum and its results will be removed permanently]]></localisation>  
+
+	<localisation code="ENTRY_NUMBER_THREADS"><![CDATA[No# Threads]]></localisation>
+</locale>
+	

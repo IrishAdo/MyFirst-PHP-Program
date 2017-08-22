@@ -1,0 +1,80 @@
+<locale language="English" codex="EN" file="users_admin.xml">
+
+	<localisation code="LOGIN_TO_SYSTEM"><![CDATA[Login to the system.]]></localisation> 
+	<localisation code="LOGOUT_OF_SYSTEM"><![CDATA[Log out of the system.]]></localisation> 
+	<localisation code="ADMIN_LOCATION_ACCESS"><![CDATA[Which menu locations do you wish to give this user admin access to?  (Greyed out boxes indicate the group this user is a member of does not have access to this menu location).]]></localisation> 
+	<localisation code="CAN_USER_CHOOSE_EDIT_MODE"><![CDATA[Allow this user to edit HTML.]]></localisation> 
+	<localisation code="MODIFY_USER_ADMIN_ACCESS_WARNING"><![CDATA[Changes made to user access will not take effect until they next log in]]></localisation> 
+	<localisation code="WHAT_LABEL"><![CDATA[What label would you like to give this.]]></localisation> 
+	<localisation code="SET_ACCESS"><![CDATA[Set access privileges .]]></localisation> 
+<!-- forms-->
+	<localisation code="USERS_SHOW_REGISTER"><![CDATA[User Registration Signup form]]></localisation>  
+	<localisation code="USERS_SHOW_LOGIN"><![CDATA[Login form]]></localisation>  
+	<localisation code="USERS_SHOW_GET_USERNAME_FORM"><![CDATA[Forgotten your usename?]]></localisation>  
+	<localisation code="USERS_SHOW_GET_PWD_FORM"><![CDATA[Forgotten you Password]]></localisation>  
+	<localisation code="USERS_SHOW_PROFILE_FORM"><![CDATA[Update your Profile]]></localisation>  
+
+
+<!-- User management-->
+	<localisation code="USER_TITLE_LABEL"><![CDATA[Filter displayed users]]></localisation>  
+	<localisation code="USER_LOGIN_NAME"><![CDATA[Login Name]]></localisation>  
+	<localisation code="USER_GROUP_FILTER"><![CDATA[User group filter]]></localisation>  
+	<localisation code="USER_DISPLAY_ALL_GROUPS"><![CDATA[Display all groups]]></localisation>  
+	<localisation code="USER_FULL_NAME"><![CDATA[Full name]]></localisation>  
+	<localisation code="USER_GROUP_NAME"><![CDATA[Group]]></localisation>  
+	<localisation code="USER_REMOVE_CONFIRMATION_LABEL"><![CDATA[You have chosen to remove this user from the system.<br/> By selecting yes this users details will be removed permanently.]]></localisation>  
+<!-- User Registration Form -->
+	<localisation code="ENTRY_PASSWORD_CONFIRM"><![CDATA[Confirm Password]]></localisation>  
+	<localisation code="ENTRY_USERNAME"><![CDATA[Username]]></localisation>  
+	<localisation code="ENTRY_PASSWORD"><![CDATA[Password]]></localisation>  
+	<localisation code="LOCALE_USER_EDIT"><![CDATA[Edit an existing user]]></localisation> 
+	<localisation code="USER_MEMBER_OF_GROUP"><![CDATA[What groups is this user a member of?]]></localisation> 
+	<localisation code="LOCALE_USER_STATUS"><![CDATA[Status of user]]></localisation>  
+	<localisation code="LOCALE_USER_CONF"><![CDATA[Confirmed]]></localisation>  
+	<localisation code="LOCALE_USER_NOT_CONF"><![CDATA[Not confirmed]]></localisation>  
+	<localisation code="LOCALE_USER_BLOCKED"><![CDATA[Blocked]]></localisation>  
+	<localisation code="LOCALE_USER_CONFIRMED"><![CDATA[User details confirmed]]></localisation>
+	<localisation code="LOCALE_USER_NOT_CONFIRMED"><![CDATA[User details not confirmed]]></localisation>
+
+	<localisation code="LOCALE_LOGIN_INCORRECT"><![CDATA[Your login details where incorrect.<br/> Please try again.]]></localisation>
+	<localisation code="LOCALE_USERS_VALIDATE_CONFIRMED"><![CDATA[
+	<h2>User Registration Validation</h2>
+	Validation of your user account has been confirmed.<br />Thank you for registering.
+	]]></localisation>
+	<localisation code="CHANNEL_DISPLAY_REGISTRATION"><![CDATA[Display the user registration form]]></localisation>
+	<localisation code="CHANNEL_DISPLAY_FORGOT_PWD"><![CDATA[Display the forgot password form]]></localisation>
+	<localisation code="CHANNEL_DISPLAY_FORGOT_USERNAME"><![CDATA[Display the forgot username form]]></localisation>
+	<localisation code="LOCALE_REGISTER_USER"><![CDATA[Register my information]]></localisation>
+	<localisation code="LOCALE_RETRIEVE_PWD"><![CDATA[Retrieve my password]]></localisation>
+	<localisation code="LOCALE_RETRIEVE_USERNAME"><![CDATA[Retrieve my username]]></localisation>
+	<localisation code="LOCALE_USERS_VALIDATE_PROBLEM"><![CDATA[
+	<h2>User Registration Validation</h2>
+	Sorry there seems to have been a problem trying to validate your registration, please check the following: -
+	<p>
+		<ol>
+			<li>The link supplied in your email has not been broken ie.<p><ul>http://www.domain.com/index.php?command=<br/>USERS_VALIDATE&email=abc@xyz.com&uid=123456</ul><br/>should read as one line.</li>
+			<li>The proper email address and uid are specified in the url</li>
+		</ol>
+	</p>
+	<p>If you have any further problems please contact us directly</p><p>Thank you <br> The support team.</p>
+	]]></localisation>
+	<localisation code="LOCALE_REGISTER_USERNAME_EXISTS"><![CDATA[Sorry but that username already exists, please choose a new username.]]></localisation>
+	<localisation code="LOCALE_USERS_USERNAME_SENT_MSG"><![CDATA[Thank you for using our automated system to retrieve your username,<br> An email has been sent to you containing your username.]]></localisation>
+	<localisation code="LOCALE_USERS_REGISTER_SENT_MSG"><![CDATA[<h2>Registration Confirmation</h2><p>Thank you for registering, a validation email has been sent to you which will allow you to validate your user account.</p>]]></localisation>
+	<localisation code="LOCALE_USERS_PWD_SENT_MSG"><![CDATA[<h2>Password Reset Confirmation</h2><p>Thank you your password has been reset. Your new password has been sent to you.</p>]]></localisation>
+	<localisation code="LOCALE_ENTRY_OPTIONAL_USERNAMES"><![CDATA[Choose one of these usernames<br />or you can choose to enter a new one]]></localisation>
+	<localisation code="LOCALE_USERS_SUPPLY_INVALID_USERNAME_OR_EMAIL"><![CDATA[Sorry a match was not found for that username and email.]]></localisation>
+
+	<localisation code="LOCALE_USERS_REGISTER_INTREST"><![CDATA[Registration form]]></localisation>
+	<localisation code="LOCALE_FORM_SUPPLY_VALID_USERNAME"><![CDATA[You did not supply a username for the site, try again.]]></localisation>
+	<localisation code="LOCALE_FORM_SUPPLY_VALID_PASSWORD"><![CDATA[There was a problem with your password.<br>This may be because:<ul><li>You did not supply a password</li><li>The supplied password is less than 6 characters.</li><li>You did not verify it correctly.</li></ul>]]></localisation>
+	<localisation code="LOCALE_RETRIEVE_USERNAME_FORM"><![CDATA[Forgot your username]]></localisation>
+	<localisation code="LOCALE_USERS_REQUEST_USERNAME"><![CDATA[Please enter your email address]]></localisation>
+	<localisation code="LOCALE_RETRIEVE_PWD_FORM"><![CDATA[Forgot your Password]]></localisation>
+	<localisation code="LOCALE_USERS_REQUEST_PASSWORD"><![CDATA[Please enter your username]]></localisation>
+	<localisation code="LOCALE_USERS_SUPPLY_USERNAME"><![CDATA[You did not supply a valid username]]></localisation>
+	<localisation code="LOCALE_NEW_USERS"><![CDATA[New users]]></localisation>
+	<localisation code="LOCALE_SORRY_NO_USERS"><![CDATA[Sorry there are no Users]]></localisation>
+	<localisation code="CHANNEL_DISPLAY_PROFILE_FORM"><![CDATA[Display the change your profile form]]></localisation>
+</locale>
+	

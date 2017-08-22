@@ -1,0 +1,114 @@
+<style>
+	body {
+		behavior	:url("/libertas_images/themes/csshover.htc");
+	}
+	div#mainmenu{
+		background-color:gray;
+	}
+	div#mainmenu ul, div#mainmenu * li, div#mainmenu * a {
+		display		:block;
+		margin		:0;
+		padding		:0;
+		border		:0;
+		list-style	:none;
+		font-weight:normal;
+	}
+	div#mainmenu * ul {
+		width		:150px;
+		border		:1px solid gray;
+		background	:white;
+		list-style	:none;
+	}
+	div#mainmenu * li {
+		list-style	:none;
+		position	:relative;
+		padding		:1px; /* do not set to 0px as problem with display child UL's */
+		z-index		:9;
+	}
+	div#mainmenu * li.folder	{ border:0px;list-style:none;}		
+	div#mainmenu * li.folder:hover { z-index:10;list-style	:none; }		
+	div#mainmenu * li.folder ul {
+		display		:none;
+		list-style	:none;
+		position	:absolute;
+		background-color:#cccccc;
+		left		:123px; /* IE */
+		top			:0px;
+		padding		:0px;
+	}		
+	div#mainmenu ul li.folder ul {
+		display		:none;
+		list-style	:none;
+		position	:absolute;
+		background-color:#dddddd;
+		left		:135px; /* IE */
+		top			:0px;
+		padding		:0px;
+	}		
+	div#mainmenu * li.folder>ul { left:130px;list-style:none;}
+	div#mainmenu ul.level1 li.folder:hover ul.level2{
+		display:block;
+		list-style:none;
+		padding:0px;
+		left:123px;
+	}
+	div#mainmenu * ul.level2 li.folder:hover ul.level3, 
+	div#mainmenu * ul.level3 li.folder:hover ul.level4, 
+	div#mainmenu * ul.level4 li.folder:hover ul.level5, 
+	div#mainmenu * ul.level5 li.folder:hover ul.level6, 
+	div#mainmenu * ul.level6 li.folder:hover ul.level7, 
+	div#mainmenu * ul.level7 li.folder:hover ul.level8, 
+	div#mainmenu * ul.level8 li.folder:hover ul.level9, 
+	div#mainmenu * ul.level9 li.folder:hover ul.level10, 
+	div#mainmenu * ul.level10 li.folder:hover ul.level11 {
+		display:block;
+		list-style:none;
+		padding:0px;
+		left:123px;
+	}
+	div#mainmenu * a {
+		padding			:2px;
+		text-decoration	:none;
+		width			:99%; /* IE */
+		color			:#000000;
+		background-color:#ebebeb;
+	}
+	div#mainmenu * li a { width:99%; }
+	div#mainmenu * li a.submenu {
+		width:99%;
+		background-color:#ebebeb;
+		background-image: url("/libertas_images/themes/sub.gif");
+		background-position: right;
+		background-repeat: no-repeat;
+	}
+	div#mainmenu * a:hover {
+		background-color:#ff9900;
+		color: #000000;
+		width:99%;
+	}
+	div#mainmenu * li.folder a:hover {
+		background-color:#ff9900;
+	}
+	div#mainmenu ul.level1 li {
+		padding-left:13px;
+		background-image: url("/libertas_images/themes/cewcni2/menuleft.gif");
+		background-position: top left;
+		background-repeat: no-repeat;
+	}
+	div#mainmenu * ul.level2 li {
+		padding-left:0px;
+		background-image: none;
+	}
+	div#mainmenu * ul.level2  {
+		padding:0px;
+		margin:0px;
+		background-image: none;
+	}
+	div#mainmenu ul.level3  {
+		position	:relative;
+		padding		:0px;
+		margin		:0px;
+		background-image: none;
+	}
+</style>
+<xsl:include href="../../styles/menus/cssmenu.xsl"/>

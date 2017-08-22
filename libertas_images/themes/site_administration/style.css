@@ -1,0 +1,215 @@
+a,a:link,a:visited,a:active{color:#000000;cursor:hand}
+a.menufooter:link,a.menufooter:active,a.menufooter:visited{color:#000000;font-weight:normal;text-decoration:none}
+a.menufooter:hover{color:#FF9933;font-weight:normal;text-decoration:underline}
+a.menulevel1:link,a.menulevel1:active,a.menulevel1:visited{color:#006699;font-weight:bold;text-decoration:none}
+a.menulevel1:hover{color:#FF9933;font-weight:bold;text-decoration:underline}
+a:hover{color:#66CC33;cursor:hand}
+a.btbtn{color:#000000;display:inline;font-weight:bold;margin:1px;text-decoration:none;width:150px}
+a.btbtn:hover{color:#000000;display:inline;font-weight:bold;margin:1px;text-decoration:none;width:150px}
+body{
+	background-color:#FFFFFF;
+	background-image:none;
+	color:#333333;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+div.bt{border:1px solid #999999;color:#000000;filter:progid:dximagetransform.microsoft.gradient(gradienttype=0,startcolorstr=#FCFCFC,endcolorstr=#cccccc);font-weight:bold;margin:1px;width:100%}
+div.headercheck{display:inline;font-weight:bold;width:20px}
+div.headerdescription{display:inline;font-weight:bold;width:300px}
+div.headerlabel{display:inline;font-weight:bold;width:200px}
+div.headerrank{display:inline;font-weight:bold;width:40px}
+div.headerrank2{display:inline;font-weight:bold;text-align:left;width:85px}
+div.rank{display:inline;text-align:left;}
+
+form{margin:0px 0px 0px 0px}
+h1{color:#333333;font-size:1.5em; font-family: Trebuchet MS, Arial, Sans-Serif;}
+h1 h2 h3 h4 h5 h6{margin-left:0}
+h2{background:#FFFFFF;color:#000000;font-size:1.1em}
+h3{background:#FFFFFF;color:#000000;font-size:1em}
+hr{border:0 solid #000000;border-top-width:1px;height:0}
+input{background:#FFFFFF;color:#003366}
+label{cursor:hand}
+label.display_element{border-bottom:1px dotted #FF0000;border-left:1px dotted #FF0000;border-right:1px dashed #FF0000;border-top:1px dotted #FF0000;cursor:hand;margin:0px}
+li{margin:5px 0px 0px 15px}
+li.redbullet{list-style-image:url('/libertas_images/general/bullets/bullet_circle_orange.gif');margin:5px 0px 0px 15px}
+li.square{list-style-type:square;margin:5px 0px 0px 15px;padding:0px 0px 5px 0px}
+pre{color:#006699}
+select{background:#FFFFFF;color:#003366}
+select.display_element,
+textarea.display_element,
+input.display_element{border-bottom:1px dotted #000000;border-left:1px dotted #000000;border-right:1px dashed #000000;border-top:1px dotted #000000;margin:0px;width:auto}
+t1d.bt{background:#336699;border:1px solid #333333;color:#FFFFFF;filter:progid:dximagetransform.microsoft.gradient(gradienttype=0,startcolorstr=#cCcCFC,endcolorstr=#336699);font-weight:bold;xfilter:progid:dximagetransform.microsoft.gradient(gradienttype=0,startcolorstr=#FCFCFC,endcolorstr=#6699cc);xwidth:100%}
+td{color:#000000;font-size:0.8em}
+td.display_element{border-bottom:1px dotted #999999;border-left:1px dotted #999999;border-right:1px dashed #999999;border-top:1px dotted #999999;margin:0px}
+td.tabempty{background:transparent
+filter:progid:dximagetransform.microsoft.gradient(gradienttype=0,startcolorstr=#FFFFFF,endcolorstr=#ffee00);border-bottom:1px solid #333333;height:100%;width:100%}
+textarea{background:#FFFFFF;color:#003366;width:100%}
+ul{margin:5px 0px 10px 15px}
+.alignleft{text-align:left;width:100%}
+.bodytablelayout{background:#FFFFFF;border:0 none;vertical-align:top}
+.breadcrumb{color:#000000}
+.breadcrumbcell{vertical-align:middle}
+.bt{
+	border:1px solid #999999;
+	color:#000000;
+	font-weight:bold;
+	margin:1px;
+	background-color: #B3DAE1;
+}
+.bt:hover{border:1px solid #B2B2B2;color:#000000;filter:progid:dximagetransform.microsoft.gradient(gradienttype=0,startcolorstr=#FCFCFC,endcolorstr=#FFCCCC);font-weight:bold}
+.buttonoff{
+filter:progid:dximagetransform.microsoft.gradient(gradienttype=0,startcolorstr=#ffffff,endcolorstr=#cccccc);
+	font-weight: bold;
+	color: #999999;
+	background-color: #B8DFE6;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #666666;
+}
+.buttonon{
+	background:#FFFFFF;
+	border-bottom:1px solid #FFFFFF;
+	font-weight: bold;
+	color: #000000;
+}
+.centered{text-align:center;vertical-align:top}
+.contenttable{border-bottom:1px solid #000000;width:100%}
+.designtablelayout{background:#999999}
+.display_element_button{display:inline;margin:1px;padding:2px;text-align:center;vertical-align:top;width:5%}
+.display_element_button_list{display:inline;margin:1px;vertical-align:top;width:33%}
+.display_element_label,.display_element_entry{border:1px dashed #999999;display:inline;margin:1px;padding:2px;vertical-align:top;width:33%}
+.display_element_wide{border:1px dashed #999999;display:inline;margin:1px;padding:2px;vertical-align:top;width:66%}
+.divhrlabel{color:#FF0000;display:inline;font-weight:bold;text-align:center;vertical-align:middle;width:30%}
+.divhrleft,
+.divhrright{display:inline;text-align:center;vertical-align:middle;width:30%}
+.error{background:#FFFFFF;color:#FF0000;font-weight:normal}
+.field_txt{
+	color:#CC0000;
+	font-weight: bold;
+}
+.field_value{}
+.fieldlist{background-color:#CECECE;border:1px solid #B2B2B2;display:inline;filter:progid:dximagetransform.microsoft.gradient(gradienttype=0,startcolorstr=#FCFCFC,endcolorstr=#CECECE);margin:1px;text-align:center;width:150px}
+.filterbutton{background:#336699;border:1px solid #333333;color:#FFFFFF;filter:progid:dximagetransform.microsoft.gradient(gradienttype=0,startcolorstr=#ccccfc,endcolorstr=#336699);font-weight:bold;xwidth:100%}
+.filterlabel{color:#FFFFFF;font-weight:bold}
+.formcells{background:#FFFFFF}
+.formcells_alt{background:#F4F4F4}
+.formheader{background:#FFFFFF;color:#006699;font-weight:bold}
+.ghost{color:#CCCCCC}
+.graph1{background:#CCFFFF}
+.graph2{background:#FFCC99}
+.graph3{background:#CCCCFF}
+.graph4{background:#FFFF00}
+.graph5{background:#AAFFAA}
+.graph6{background:#FF9999}
+.headerbar{
+	border-bottom:1px solid #6586AD;
+	padding:10px;
+	width:100%;
+	background-color: #a1bbd5;
+	background-image: url(/libertas_images/themes/site_administration/header_bg.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+	height: 80px;
+}
+.highlight{color:#FF3300;font-weight:bold}
+.layout_menu_folder{text-decoration:none}
+.leftmenu{background:#FFFFCC;color:#000000;font-weight:bold;height:30px;vertical-align:middle}
+.leftmenuon{color:#000000;font-weight:bold;height:30px;vertical-align:middle}
+.leftmenuopen{background:#CCCCCC;color:#000000;font-weight:bold;height:30px;vertical-align:middle}
+.leftmenuspliterdark{background:#006699;vertical-align:middle}
+.leftmenuspliterlight{background:#FFCC00;vertical-align:middle}
+.lineit{border-bottom:1px dotted #0000FF;height:26px}
+.maincontentlocation{padding:10px;text-align:justify;vertical-align:top}
+.menulinkspacer{background:#EBEBEB;border-left:1px solid #F6F6F6;border-right:1px solid #AAAAAA}
+.menunavigationcell{
+	border-bottom:1px solid #6586AD;	vertical-align:middle;
+	width:100%;
+	height:27px;
+	background-color: #f4f7fb;
+	background-image: url(/libertas_images/themes/site_administration/menubar_bg.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+.menunavigationcell_close{background:#000000;border:0 none}
+.menutitle{background:#006699;color:#FFFFFF;font-weight:bold;vertical-align:middle}
+.menutitlesplitterdark{background:#006699;vertical-align:middle}
+.menutitlesplitterlight{background:#006699;vertical-align:middle}
+.msg{color:#006699;font-size:2.5em;text-align:center;width:100%}
+.outsidetablelayout{vertical-align:top}
+.required{color:#FF9933;display:inline;font-weight:bold}
+.sfieldlist{background-color:#FFCCCC;border:1px solid #000000;display:inline;filter:progid:dximagetransform.microsoft.gradient(gradienttype=0,startcolorstr=#FCFCFC,endcolorstr=#ffcccc);margin:1px;text-align:center;width:150px}
+.smallcheck,
+.fieldlabels{text-align:left;width:20%}
+.storyitem{padding:3px}
+.tablebackground{background:#FFFFFF}
+.tablecell{
+	background:#FFFFFF;
+	color:#333333;
+	font-weight: bold;
+}
+.tablecell_alt,.tablecellalt{
+	background-color:#E1E1FF;
+	color:#333333;
+	background-image: url(/libertas_images/themes/site_administration/tablecellalt_bg.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+	font-weight: bold;
+}
+.tableheader,.storyheader,.channelheader{background:#FFFFFF;font-weight:bold;text-align:left;vertical-align:middle}
+.tablelabel{color:#006699}
+.warning{color:#FF0000}
+.width100percent{width:100%}
+.width600px{width:600px}
+.workspace{display:inline;margin:1%;vertical-align:top;width:48%}
+.xformbackground{background-color:#FF6600}
+th{
+	text-align:left;
+	font-size:0.9em;
+	background:#FCFCFC;
+	border:1px solid #666666;
+	margin:0px;
+	font-weight:normal;
+	filter:progid:dximagetransform.microsoft.gradient(gradienttype=0,startcolorstr=#FCFCFC,endcolorstr=#cccccc);padding:3px;width:auto
+}
+th.classright {
+	text-align:right;
+	
+}
+
+div.cell{
+	display:inline;width:49%
+}
+td.textlabel{
+	font-weight:bold;
+}
+div#messagebox {
+	width:100%;
+	display: inline;
+	float: left;
+}
+div#system_message {
+	width:578px;
+	background-image: url(comment_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	display: inline;
+	float: left;
+	height: 148px;
+	padding-top:10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	color: #000000;
+}
+div#suggest {
+	width:200px;
+	/*background-image: url(letusknow.gif);
+	background-repeat: no-repeat;
+	background-position: left top;*/
+	display: inline;
+	float: right;
+	margin-left: 40px;
+	height: 148px;
+}

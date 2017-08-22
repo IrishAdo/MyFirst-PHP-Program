@@ -1,0 +1,31 @@
+.sortable{background:Window;border:1px Solid ThreeDShadow;color:WindowText;}
+.sortable td{
+padding:2px 5px;border-bottom:1px solid #cccccc;border-right:1px solid #cccccc;
+empty-cells: show;
+font-size:0.8em}
+.sortable tr th a.sortheader,
+.sortable tr th a.sortheader:hover, 
+.sortable tr th a.sortheader:active, 
+.sortable tr th a.sortheader:link, 
+.sortable tr th a.sortheader:visited {
+color:black;text-decoration: none;
+}
+.sortable tr th a:hover{color:black;text-decoration: none;}
+.sortable th{border:1px solid;border-color:ButtonHighlight ButtonShadow ButtonShadow ButtonHighlight;cursor:default;
+background:ButtonFace;font-weight:normal;color:black;padding-left:3px;font-size:0.9em}
+.sortable th:active{border-color:ButtonShadow ButtonHighlight ButtonHighlight ButtonShadow;padding:3px 4px 1px 6px}
+.sortable th[_sorttype=none]:active{border-color:ButtonHighlight ButtonShadow ButtonShadow ButtonHighlight;padding:2px 5px}
+.sortheader{width:100%;color:black}
+.sortarrow{
+ background-position: right;
+ background-repeat: no-repeat;
+ padding-right:15px;
+ width:100%; 
+}
+
+tr.sortTableRow {
+	background:white
+}
+tr.sortTableRowAlt{
+	background:#ebebeb;
+}

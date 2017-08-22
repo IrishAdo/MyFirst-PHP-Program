@@ -1,0 +1,31 @@
+<locale language="English" codex="EN" file="users_module.xml">
+	<localisation code="LOGIN_TO_SYSTEM"><![CDATA[Login]]></localisation>
+	<localisation code="LOCALE_LOGIN_INCORRECT"><![CDATA[Your login details where incorrect.<br/> Please try again.]]></localisation>
+	<localisation code="CHANNEL_DISPLAY_PROFILE_FORM"><![CDATA[Show user profile form]]></localisation>
+	<localisation code="LOCALE_USERS_PROFILE"><![CDATA[Update your Profile]]></localisation>
+	<localisation code="LOCALE_USERS_PROFILE_UPDATE"><![CDATA[
+	<h2>User Profile Confirmation</h2>
+	Thank you for updating your profile details.
+	]]></localisation>
+	<localisation code="USERS_SHOW_PROFILE_FORM"><![CDATA[Update User Preferences]]></localisation>
+	<localisation code="USERS_GET_USER_PREFERENCE"><![CDATA[Update User Preferences]]></localisation>
+	<localisation code="USERS_SHOW_GET_PWD_FORM"><![CDATA[Forgotten Password Form]]></localisation>
+	<localisation code="USERS_SHOW_GET_USERNAME_FORM"><![CDATA[Forgotten Username Form]]></localisation>
+	<localisation code="USERS_SHOW_REGISTER"><![CDATA[User Registration Form]]></localisation>
+	<localisation code="USERS_SHOW_LOGIN"><![CDATA[Log in form]]></localisation>
+
+	<localisation code="LOCALE_REGISTER"><![CDATA[Register Today]]></localisation>
+	<localisation code="LOCALE_USERS_REGISTER_THANKYOU"><![CDATA[
+	<h2>User Registration</h2>
+	A member of staff will validate your account request.<br />Thank you for registering.
+	]]></localisation>
+	<localisation code="LOCALE_RETRIEVE_USERNAME_FORM"><![CDATA[Forgot your username]]></localisation>
+	<localisation code="LOCALE_USERS_REQUEST_USERNAME"><![CDATA[Please enter your email address]]></localisation>
+	<localisation code="LOCALE_RETRIEVE_PWD_FORM"><![CDATA[Forgot your Password]]></localisation>
+	<localisation code="LOCALE_USERS_REQUEST_PASSWORD"><![CDATA[Please enter your username]]></localisation>
+	<localisation code="LOCALE_USERS_SUPPLY_EMAIL"><![CDATA[You did not supply an email address, try again]]></localisation>
+	<localisation code="LOCALE_USERS_SUPPLY_USERNAME"><![CDATA[You did not supply a valid username]]></localisation>
+	<localisation code="LOCALE_USERS_SUPPLED_INVALID_EMAIL"><![CDATA[The email address you supplied does not exist in our records.<br />Please try again or contact us directly.<br />Thank you]]></localisation>
+
+</locale>
+	

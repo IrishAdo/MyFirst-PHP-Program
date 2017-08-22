@@ -1,0 +1,10 @@
+<locale language="English" codex="EN" file="installer_module.xml">
+
+<!-- Management Labels-->
+	<localisation code="MANAGEMENT_INSTALLER"><![CDATA[Installation Management]]></localisation> 
+	<localisation code="MANAGE_INSTALLER"><![CDATA[Manage Installer]]></localisation> 
+<!-- Module Labels-->
+	<localisation code="INSTALLER_LOGIN_MSG"><![CDATA[<p>It should be noted that the username and password requested here are your installation username and password.</p>]]></localisation>
+
+</locale>
+	

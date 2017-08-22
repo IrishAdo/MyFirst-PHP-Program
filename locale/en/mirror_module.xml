@@ -1,0 +1,12 @@
+<locale language="English" codex="EN" files="mirror_module.xml">
+
+
+<!-- Mirror Management Labels-->
+	<localisation code="MIRROR_MANAGEMENT_TITLE"><![CDATA[Please define the Mirror settings]]></localisation>  
+	<localisation code="MIRROR_LOCATION_TO_MIRROR"><![CDATA[Please select the location to be mirrored]]></localisation>  
+	<localisation code="MIRROR_OPTION_NONE_SELECTED"><![CDATA[No location currently selected to be mirrored]]></localisation>  
+	<localisation code="MIRROR_SELECT_MENU_LOCATIONS_FOR MIRROR"><![CDATA[Please select the locations this mirror is to appear.]]></localisation>  
+	<localisation code="LOCALE_MIRROR_CHANNEL_OPEN"><![CDATA[Place a mirror channel here.]]></localisation>  
+
+</locale>
+	

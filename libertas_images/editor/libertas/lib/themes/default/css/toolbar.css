@@ -1,0 +1,99 @@
+.LIBERTAS_default_toolbar {
+}
+.LIBERTAS_default_toolbar_top {
+	background-color : #ebebeb;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	height : 34px;
+	vertical-align : middle;
+	padding-left : 10px;
+	padding-right : 10px;
+	border:1px solid #cccccc;
+	filter:progid:dximagetransform.microsoft.gradient(gradienttype=0,startcolorstr=#cccccc,endcolorstr=#FCFBFF);
+}
+
+LIBERTAS_default_toolbar_right_side, LIBERTAS_default_toolbar_left_side {
+	width:1px;
+	background-color:#cccccc;
+}
+.LIBERTAS_default_toolbar_left,  LIBERTAS_default_toolbar_right {
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	padding-left : 5px;
+	padding-right : 5px;
+	padding-top : 5px;
+	border-left : 1px solid #cccccc;
+	background-color:#ebebeb;
+	filter:progid:dximagetransform.microsoft.gradient(gradienttype=0,startcolorstr=#EDECF0,endcolorstr=#FCFBFF);
+}
+
+.LIBERTAS_default_toolbar_bottom {
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	vertical-align : top;
+	padding-right : 5px;
+}
+
+.LIBERTAS_default_editarea {
+	border : 1px solid #999999;
+}
+
+.LIBERTAS_default_tb_input {
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+}
+.LIBERTAS_default_tb_over {
+	border : 0px solid #999999;
+}
+.LIBERTAS_default_tb_out {
+	border : 0px solid #CCCCCC;
+}
+.LIBERTAS_default_tb_down {
+	border-top : 0px solid #999999;
+	border-left : 0px solid #999999;
+	border-right : 0px solid White;
+	border-bottom : 0px solid White;
+}
+
+.menu_item_highlighted{
+	margin:0px 0px 0px 0px;
+	background-color: #FFFF99;
+	height:18px;
+	padding:0px 0px 0px 0px;
+}
+.menu_item{
+	background-color: White;
+	height:18px;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	vertical-align:middle;
+}
+.menu_item_ghost{
+	background-color: White;
+	margin:0px 0px 0px 0px;
+	color:	#999999;
+	height:18px;
+	padding:0px 0px 0px 0px;
+	vertical-align:middle;
+}
+.menu_separator{
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	text-align:center;
+	background-color: White;
+	height:9px;
+	vertical-align:middle;
+}
+
+#libertas_form{
+	border: 1px dotted #ff0000;
+	width:100%;
+}
+img,div {
+margin:0px 0px 0px 0px ;
+}
+

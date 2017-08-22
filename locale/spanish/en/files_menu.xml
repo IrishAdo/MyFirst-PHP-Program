@@ -1,0 +1,8 @@
+<locale language="English" codex="EN" file="files_module.xml">
+
+<!-- Management Labels-->
+	<localisation code="MANAGEMENT_FILES"><![CDATA[File Management]]></localisation> 
+	<localisation code="MANAGE_FILE"><![CDATA[Manage Files]]></localisation> 
+
+</locale>
+	

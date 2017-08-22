@@ -1,0 +1,5 @@
+<locale language="English" codex="EN" files="system_pref_admin.xml">
+	<localisation code="LOCALE_SYS_PREF_FORM_CONFIRM"><![CDATA[System Preference Confirmation]]></localisation>
+	<localisation code="LOCALE_SYS_PREF_CONFIRM"><![CDATA[Thank you for updating the system settings.]]></localisation>
+</locale>
+	

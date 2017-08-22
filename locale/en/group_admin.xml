@@ -1,0 +1,24 @@
+<locale language="English" codex="EN" file="group_admin.xml">
+<!-- System Access Levels -->
+	<localisation code="LOCALE_GROUP_SELECTION"><![CDATA[Group Selection]]></localisation>
+	<localisation code="LOCALE_LIST_OF_GROUPS_AVAILABLE_TO_SEE"><![CDATA[Select the groups that you wish to restrict this document to.<br />By not selecting you will leave access to this document open or restricted by the menus location restriction settings]]></localisation>
+<!-- Group -->	
+	<localisation code="ENTRY_ADMINISTER_GROUP"><![CDATA[Manage groups]]></localisation> 
+	<localisation code="ENTRY_GROUP_TYPE"><![CDATA[What role does this group belong to?]]></localisation> 
+	<localisation code="ENTRY_GROUP_TYPE_LABEL"><![CDATA[Group type]]></localisation> 
+	<localisation code="LOCALE_GROUP_ADMIN"><![CDATA[Administrative user group]]></localisation> 
+	<localisation code="LOCALE_GROUP_BASIC"><![CDATA[Ordinary user group]]></localisation> 
+	<localisation code="ENTRY_GROUP_NAME"><![CDATA[Group name]]></localisation>  
+	<localisation code="LOCALE_NUMBER_USERS_IN_GROUP"><![CDATA[No. in group]]></localisation> 
+	<localisation code="LOCALE_DEFAULT_GROUP_MSG"><![CDATA[Groups that this page is restricted to if any]]></localisation> 
+	<localisation code="LOCALE_BLANK_GROUP_MSG"><![CDATA[<li>Please select the Menu locations first</li>]]></localisation> 
+
+	<localisation code="FILTER_BY_GROUP"><![CDATA[Filter by group access]]></localisation> 
+	<localisation code="EXPLAIN_SELECT_GROUP_ACCESS"><![CDATA[The following groups will be able to see this document in the selected locations]]></localisation>  
+	<localisation code="SELECT_GROUP_ACCESS"><![CDATA[Default group access for this document]]></localisation>
+	<localisation code="LOCAL_GROUP_ADMIN"><![CDATA[Admin group(s)]]></localisation>
+	<localisation code="LOCAL_GROUP_BASIC"><![CDATA[Non admin group(s)]]></localisation>
+	<localisation code="ENTRY_GROUP_DEFAULT"><![CDATA[Is this group to be the default user group for new registrants.]]></localisation>
+	<localisation code="ENTRY_GROUP_ACCESS"><![CDATA[Group Access for this document]]></localisation>
+</locale>
+	

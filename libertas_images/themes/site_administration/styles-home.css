@@ -1,0 +1,235 @@
+/* styles-home.css - styles for the home page */
+/* Author: Gerard Torenvliet */
+/* Copyright (c) 1996-2003 Watchfire Corporation */
+
+/* DIV maingraphic - the div to hold the main graphic of the page */
+	div#maingraphic{
+		width							: 100%;
+		border-top					: 2px solid #FFFFFF;
+		border-bottom				: 8px solid #7C8A8D;
+		background-image		: url(../images/home/banner-image.jpg);
+		background-repeat		: no-repeat;
+		background-color			: #232476;
+		clear								: both;
+	}
+	div#maingraphic table{
+		width							: 100%;
+		font-size						: 100%;
+	}
+	div#maingraphic-table-column1{
+		width							: 1px;
+	}
+
+	p.mainstory {
+		font-size						: 160%;
+		color							: #FFFFFF;
+		text-align						: right;
+		font-family					: verdana, arial, sans-serif;
+		padding						: 0.7em 15px 2px 0;
+		line-height					: 1.5;
+		font-weight					: 200;
+		margin							: 0;
+	}
+	
+	p.mainstory2
+{
+	padding-right: 0px;
+	background-position: right top;
+	padding-left: 0px;
+	font-weight: 200;
+	font-size: 120%;
+	
+	padding-bottom: 0.5em;
+	margin: 0px 15px 0px 33px;
+	color: #ffffff;
+	line-height: 1.5;
+	padding-top: 3px;
+	background-repeat: no-repeat;
+	font-family: verdana, arial, sans-serif;
+	text-align: right;
+}
+	
+	p.mainstorylearnmore {
+		font-size						: 120%;
+		font-weight					: bold;
+		text-align						: right;
+		padding						: 0.5em 0.9em 0.2em 0;
+		margin							: 0;
+	}
+	div#maingraphic a:link {
+		color							: #FFFFFF;
+		text-decoration			: none;
+	}
+	div#maingraphic a:visited {
+		color							: #FFFFFF;
+		text-decoration			: none;
+	}
+	div#maingraphic a:hover {
+		color							: #FFFFFF;
+		text-decoration			: underline;
+	}
+	
+/* DIV maincontent - the main content of the page after the graphic table */	
+
+	div#maincontent{
+		/* this padding is used so that the column lines terminate 0.5em from top and bottom */
+		padding						: 0.5em 0 0.5em 0;
+	}
+
+	/* styling the bones of the main content table */
+		div#maincontent table {
+			width							: 100%;
+			font-size						: 100%;
+		}
+		div#maincontent td{
+			padding						: .5em 1em 1em 1em;
+			vertical-align				: top;
+		}
+		td#leftcolumn{
+			width							: 25%;
+		}
+		td#middlecolumn{
+			width							: 50%;
+			border-right					: 1px solid #7C8A8D;
+			border-left					: 1px solid #7C8A8D;
+		}
+		td#rightcolumn{
+			width							: 25%;
+		}
+		div#interior-leftcolumn{}
+		div#interior-middlecolumn{}
+		div#interior-rightcolumn{}
+		
+	/* content styles */
+		div#maincontent h1{
+			font-size						: 130%;
+			padding						: 0em 0em 0.2em 0em;
+			font-weight					: bold;
+			color							: #181863;
+			margin							: 0 0 0.7em 0;
+			background-image		:  url(../images/home/h1-bottom.gif);
+			background-position	: left bottom;
+			background-repeat		: no-repeat;
+			line-height					: 1.5;
+			clear								: left;
+		}
+		
+		h1.top{
+			/* used for h1's at the top of a column, to get rid of top padding */
+			margin-top					: 0em !important;
+			padding-top					: 0em !important;
+		}
+
+		div#maincontent h1 a:link{
+			color							: #181863;
+			text-decoration			: none;
+		}
+		div#maincontent h1 a:hover{
+			color							: #181863;
+			text-decoration			: none;
+		}
+		div#maincontent h1 a:visited{
+			color							: #181863;
+			text-decoration			: none;
+		}
+		div#maincontent p{
+			line-height: 1.5;
+			margin: 0;
+			padding: 0 0 1.5em 0;
+		}
+		
+	/* unordered lists in the main content area */
+		div#maincontent ul{
+			padding						: 0;
+			margin							: 0 0 0 1.5em;
+			list-style-image				: url(../images/basic/bullet.gif);
+		}
+		div#maincontent li{
+			line-height					: 1.5;
+			padding						: 0 0 0.5em 0;
+		}
+		div#maincontent ul a:link{
+			text-decoration				: none !important;
+			color								: #000000 !important;
+		}
+		div#maincontent ul a:visited{
+			text-decoration				: none !important;
+			color								: #000000 !important;
+		}
+		div#maincontent ul a:hover {
+			text-decoration				: underline !important;
+			color								: #0000FF !important;
+		
+		}
+		
+	/* featurestory - styles to manage the main story in the centre column */
+		img#featurestory{
+			float								: left;
+			margin							: 0em 1em 7em 0;
+		}
+		img#featurestory2{
+			float								: left;
+			margin							: 0 1em 6em 0;
+		}
+		img#featurestory3{
+			float								: left;
+			margin							: 0 1em 4em 0;
+		}
+		img#customersuccess{
+			float								: right;
+			margin							: 0 0 1em 1.5em;		
+		}
+		p.featureleadin{
+			color							: #181863;
+			padding						: 0 0 0 0 !important;
+			margin							: 0 0 0 0;
+		}
+		h1.featureheader
+		{
+			
+			background					: none !important;
+			margin							: 0 !important;
+			padding						: 0 0 0.5em 0 !important;
+			clear								: none !important;
+		}
+		h1.featureheaderstrong
+		{
+			color						: #DC7324 !important;
+			background					: none !important;
+			margin							: 0 !important;
+			padding						: 0 0 0.5em 0 !important;
+			clear								: none !important;
+			font-weight					: bold !important;
+		}
+		h1.featureheaderstrong a
+		{
+			color						: #DC7324 !important;
+			background					: none !important;
+			margin							: 0 !important;
+			padding						: 0 0 0.5em 0 !important;
+			clear								: none !important;
+			font-weight					: bold !important;
+		}
+
+	/* more - the paragraph advertising more of something (news, etc) */		
+		p.more{
+			clear								: both;
+			text-align						: right;
+			margin							: 0 0 0 0 !important;
+			padding						: 0em 0 2em 0 !important;
+		}
+		img.imgmore{
+			margin							: 0 0 0 0.5em;
+			vertical-align				: middle;
+		}
+
+	/* newsgray - samll lettering */
+		span.newsgray{
+			font-size					: 90%;
+			color						: #7C898D;
+		}
+	
+	/* newsdate - the date for seminars, news, and events */
+		span.newsdate{
+			font-size						: 100%;
+		}

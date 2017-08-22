@@ -1,0 +1,20 @@
+<locale language="English" codex="EN" file="polls_admin.xml">
+<!-- Poll Management Labels -->
+	<localisation code="POLL_TITLE_LABEL"><![CDATA[Poll information]]></localisation>  
+	<localisation code="POLL_WHERE_ON_SITE_TO_PUBLISH"><![CDATA[Publish Poll to this location]]></localisation>  
+	<localisation code="POLL_STATUS"><![CDATA[Poll Status]]></localisation>  
+	<localisation code="POLL_QUESTION"><![CDATA[Question]]></localisation>  
+	<localisation code="POLL_ANSWER"><![CDATA[Answer ......]]></localisation>  
+	<localisation code="LOCALE_CONFIRM_DELETE"><![CDATA[Confirm delete]]></localisation>  
+	<localisation code="POLL_REMOVE_CONFIRMATION_LABEL"><![CDATA[Are you sure you wish to permanently remove this poll?]]></localisation>  
+	<localisation code="POLL_ANSWER_STATEMENT"><![CDATA[Please list possible voting options to your poll]]></localisation>  
+	<localisation code="LOCALE_POLL_CHANNEL_OPEN"><![CDATA[Place a poll channel here.]]></localisation>  
+	<localisation code="LOCALE_SORRY_POLL_MSG"><![CDATA[
+	<p>The system administrator has not supplied locations to publish a poll to.</p>
+	<p>Please contact your System Administrator about creating a poll channel.</p>
+	]]></localisation>
+	<localisation code="POLL_REMOVE_LABEL"><![CDATA[Remove Poll]]></localisation>
+	<localisation code="DISPLAY_POLL_CHANNEL_OPEN"><![CDATA[Allow a Poll to be displayed in this location]]></localisation>
+
+</locale>
+	
